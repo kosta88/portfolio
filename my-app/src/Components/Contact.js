@@ -7,10 +7,10 @@ class Contact extends Component {
       <div className='homepage-grid' >
         <Container fluid>
           <Row>
-            <Col sm={5} style={{ paddingTop: '3%' }}>
+            <Col xs={1} sm={2} md={3} lg={4} xl={5} style={{ paddingTop: '3%' }}>
               <h2>Sklonnie Konstantin</h2>
 
-              <img style={{ height: '250px' }} src="images/kosta.jpg" alt="avatar" />
+              <img style={{ height: '30%' }} src="images/kosta.jpg" alt="avatar" />
               <hr style={{ borderTop: "1px solid black", width: "55%" }} />
 
               <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
@@ -22,7 +22,7 @@ class Contact extends Component {
             </p>
             </Col>
 
-            <Col sm={7} style={{ paddingTop: '7%' }}>
+            <Col xs={2} sm={4} md={6} lg={6} xl={7} style={{ paddingTop: '7%' }}>
               <h3>Contact info</h3>
               <hr style={{ borderTop: "1px solid black", width: "55%" }} />
               <div >

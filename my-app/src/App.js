@@ -4,11 +4,17 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Main from "./Components/Main";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+
+
+
 function App() {
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand href="/">Home page</Navbar.Brand>
+        <Navbar.Brand href="/">
+        <FontAwesomeIcon icon={faHome} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
         <Navbar.Collapse id="responsive-navbar-nav">

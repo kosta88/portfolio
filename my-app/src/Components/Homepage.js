@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from 'react-bootstrap';
 
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
@@ -24,8 +23,8 @@ class Homepage extends Component {
           </div>
 
 
-          <div className="banner-text">
-            <h1>Computer Science graduate</h1>
+          <div className="banner-text" >
+            <h1 style={{paddingBottom:'2%'}}>Computer Science graduate</h1>
             <hr />
             <p>
               JAVA | JavaScript | C++ | Node JS | Express JS | React JS | Postman | MongoDB

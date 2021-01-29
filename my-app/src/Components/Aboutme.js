@@ -5,11 +5,10 @@ import { } from 'react-bootstrap';
 function Aboutme(){
     return (
       <div className='homepage-grid'>
-        <div className='color-text-grid' style={{
-         marginLeft: 'auto', marginRight: 'auto', marginTop: '10%', padding: '5%',borderRadius:'20%'
-        }}>
+        <div className='color-text-grid' 
+        style={{ margin: '10%', padding: '3%',borderRadius:'20%' }}>
 
-          <h1 style={{ fontSize: '45px', color: 'khaki', textTransform: 'uppercase', fontFamily: 'Anton, sans-serif' }}>
+          <h1 style={{  color: 'khaki', textTransform: 'uppercase', fontFamily: 'Anton, sans-serif' }}>
             Sklonnie Konstantin</h1>
           <p style={{ textAlign: 'justify', color: 'khaki', fontFamily: 'Oxygen, sans-serif' }}>
             Hi, i am kosta sklonnie.

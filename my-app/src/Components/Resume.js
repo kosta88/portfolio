@@ -15,7 +15,7 @@ class Resume extends Component {
       <div className='homepage-unlock'>
         <Container fluid>
           <Row>
-            <Col sm={5} style={{ padding: "2%" }}>
+            <Col xs={1} sm={2} md={3} lg={4} xl={5} style={{ padding: "2%" }}>
               <div style={{ textAlign: "center" }}>
                 <img
                   src="images/kosta.jpg"
@@ -46,11 +46,12 @@ class Resume extends Component {
                 href="https://drive.google.com/file/d/1-Fft3V2hseraJsbM0gdbOy9KMsejcUpy/view?usp=sharing"
               > click to View
             </a>
-
             </Col>
 
 
-            <Col style={{ background: '#27221f', color: '#fff', width: '100%', height: '100%' }} >
+            <Col xs={2} sm={4} md={6} lg={6} xl={7}
+            style={{ background: '#27221f', color: '#fff', width: '100%', height: '100%' }} >
+
               <hr style={{ borderTop: "2px solid #e22947", width: "80%" }} />
 
               <h4 style={{ marginTop: '1%', marginBottom: '1%' }}>Education</h4>

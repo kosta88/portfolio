@@ -11,11 +11,11 @@ class Skills extends Component {
         return (
             <Container fluid>
                 <Row>
-                    <Col sm={4}>
+                    <Col xs={1} sm={2} md={3} lg={3} xl={4}>
                         <p>{this.props.skill}</p>
                     </Col>
 
-                    <Col sm={7} style={{paddingTop:'3%'}}>
+                    <Col xs={2} sm={4} md={6} lg={6} xl={7} style={{paddingTop:'3%'}}>
                         <ProgressBar variant="success" now={this.props.progress} />
                         </Col>
                         </Row>
