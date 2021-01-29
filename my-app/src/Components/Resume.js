@@ -105,6 +105,8 @@ class Resume extends Component {
                 <li>Russian</li>
                 <li>Chinese</li>
               </ul>
+
+              <br/><br/><br/><br/>
             </Col>
           </Row>
         </Container>

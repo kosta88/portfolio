@@ -23,7 +23,7 @@ class FullstackProjects extends Component {
             <div className='homepage-grid'>
                 <Row className="fix-in-center">
                     {/*fullsatck app */}
-                    <Card style={{ width: '22rem', margin: '2%' }}>
+                    <Card style={{ width: '22rem', margin: '3%' }}>
                         <Card.Header>FullStack ...blabla... Application</Card.Header>
                         <Card.Img variant="top" src="" />
                         <Card.Body>

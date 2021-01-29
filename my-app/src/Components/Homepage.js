@@ -2,8 +2,12 @@ import React, { Component } from "react";
 import { Container, Row, Col } from 'react-bootstrap';
 
 
-import { faHome, } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithubAlt,
+  faLinkedin,
+  faFacebook,
+} from '@fortawesome/free-brands-svg-icons';
 
 class Homepage extends Component {
   render() {
@@ -17,38 +21,27 @@ class Homepage extends Component {
             // alt="******"
             />
           </div>
+
           <div className="banner-text">
             <h1>Computer Science graduate</h1>
             <hr />
             <p>
               JAVA | JavaScript | C++ | Node JS | Express JS | React JS | Postman | MongoDB
-              </p>
-
+            </p>
             <div className="social-links">
               {/* LinkedIn */}
-              <a
-                href="https://www.linkedin.com/in/kostas2019/"
+                 <a href="https://www.linkedin.com/in/kostas2019/"
                 rel="noopener noreferrer"
                 target="_blank"  >
-                <FontAwesomeIcon icon={faHome}>
+                <FontAwesomeIcon icon={faLinkedin}>
                 </FontAwesomeIcon >
               </a>
 
               {/* github */}
-              <a
-                href="https://github.com/kosta88"
+              <a  href="https://github.com/kosta88"
                 rel="noopener noreferrer"
                 target="_blank"  >
-                <FontAwesomeIcon icon={faHome}>
-                </FontAwesomeIcon >
-              </a>
-
-              {/* LinkedIn */}
-              <a
-                href="*******************/"
-                rel="noopener noreferrer"
-                target="_blank"  >
-                <FontAwesomeIcon icon={faHome}>
+                <FontAwesomeIcon icon={faGithubAlt}>
                 </FontAwesomeIcon >
               </a>
 
@@ -57,7 +50,7 @@ class Homepage extends Component {
                 href="https://www.facebook.com/kostiask"
                 rel="noopener noreferrer"
                 target="_blank"  >
-                <FontAwesomeIcon icon={faHome}>
+                <FontAwesomeIcon icon={faFacebook}>
                 </FontAwesomeIcon >
               </a>
 

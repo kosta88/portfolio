@@ -14,7 +14,8 @@ class Skills extends Component {
                     <Col sm={4}>
                         <p>{this.props.skill}</p>
                     </Col>
-                    <Col>
+
+                    <Col sm={7} style={{paddingTop:'3%'}}>
                         <ProgressBar variant="success" now={this.props.progress} />
                         </Col>
                         </Row>
