@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import {
   faGithubAlt,
   faLinkedin,
@@ -13,7 +14,7 @@ class Homepage extends Component {
   render() {
     return (
       <div className='homepage-grid' >
-        <Container fluid >
+
           <div className="profile-img-border">
             <img
               className="profile-img"
@@ -22,12 +23,14 @@ class Homepage extends Component {
             />
           </div>
 
+
           <div className="banner-text">
             <h1>Computer Science graduate</h1>
             <hr />
             <p>
               JAVA | JavaScript | C++ | Node JS | Express JS | React JS | Postman | MongoDB
             </p>
+
             <div className="social-links">
               {/* LinkedIn */}
                  <a href="https://www.linkedin.com/in/kostas2019/"
@@ -53,10 +56,10 @@ class Homepage extends Component {
                 <FontAwesomeIcon icon={faFacebook}>
                 </FontAwesomeIcon >
               </a>
-
             </div>
+
           </div>
-        </Container>
+
       </div>
     );
   }

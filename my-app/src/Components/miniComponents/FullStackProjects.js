@@ -24,7 +24,7 @@ class FullstackProjects extends Component {
                 <Row className="fix-in-center">
                     {/*fullsatck app */}
                     <Card style={{ width: '22rem', margin: '3%' }}>
-                        <Card.Header>FullStack ...blabla... Application</Card.Header>
+                        <Card.Header>FullStack Application</Card.Header>
                         <Card.Img variant="top" src="" />
                         <Card.Body>
                             {/* <Card.Title>Elevator Simulation</Card.Title> */}

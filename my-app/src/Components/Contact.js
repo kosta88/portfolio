@@ -7,7 +7,7 @@ class Contact extends Component {
       <div className='homepage-grid' >
         <Container fluid>
           <Row>
-            <Col sm={5} style={{ marginTop: '3%' }}>
+            <Col sm={5} style={{ paddingTop: '3%' }}>
               <h2>Sklonnie Konstantin</h2>
 
               <img style={{ height: '250px' }} src="images/kosta.jpg" alt="avatar" />
@@ -20,10 +20,9 @@ class Contact extends Component {
               that I can build professional and useful software that has
               business value.
             </p>
-
-
             </Col>
-            <Col sm={7} style={{ marginTop: '7%' }}>
+
+            <Col sm={7} style={{ paddingTop: '7%' }}>
               <h3>Contact info</h3>
               <hr style={{ borderTop: "1px solid black", width: "55%" }} />
               <div >
@@ -36,7 +35,6 @@ class Contact extends Component {
             </Col>
           </Row>
         </Container>
-
       </div>
     );
   }

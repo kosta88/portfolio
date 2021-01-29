@@ -6,7 +6,7 @@ function Aboutme(){
     return (
       <div className='homepage-grid'>
         <div className='color-text-grid' style={{
-         marginLeft: 'auto', marginRight: 'auto', marginTop: '10%', width: '60%', padding: '5%',borderRadius:'20%'
+         marginLeft: 'auto', marginRight: 'auto', marginTop: '10%', padding: '5%',borderRadius:'20%'
         }}>
 
           <h1 style={{ fontSize: '45px', color: 'khaki', textTransform: 'uppercase', fontFamily: 'Anton, sans-serif' }}>

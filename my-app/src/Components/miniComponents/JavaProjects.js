@@ -33,7 +33,7 @@ class JavaProjects extends Component {
       <div className='homepage-grid'>
         <Row className="fix-in-center">
           {/*elevator sim */}
-          <Card style={{ width: '22rem', margin: '3%' }}>
+          <Card style={{ width: '18rem', margin: '3%' }}>
             <Card.Header>Elevator Simulation</Card.Header>
             <Card.Img variant="top" src="images/elevatorSim.png" />
             <Card.Body>
@@ -51,9 +51,9 @@ class JavaProjects extends Component {
           </Card>
 
           {/* Android game */}
-          <Card style={{ width: '22rem', margin: '2%' }}>
+          <Card style={{ width: '22rem', margin: '3%' }}>
           <Card.Header>Android game</Card.Header>
-            <Card.Img variant="top" src="*******" />
+            <Card.Img variant="top" src="images/android.jpg" />
             <Card.Body>
               {/* <Card.Title>Android game</Card.Title> */}
               <Card.Text>
