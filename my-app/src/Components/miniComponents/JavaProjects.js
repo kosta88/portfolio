@@ -20,7 +20,7 @@ class JavaProjects extends Component {
 
   render() {
     return (
-      <div className='homepage-unlock ' >
+      <div className='homepage-max' >
         <Container fluid>
           <Row className="fix-in-center">
             {/*elevator sim */}

@@ -42,7 +42,6 @@ h2, h4 ,h3 {
 
 .homepage-grid {
   background:  #085c40; /* fallback for old browsers */
-
   background: -webkit-linear-gradient(
     to right,
     #085c40,
@@ -53,13 +52,27 @@ h2, h4 ,h3 {
     #085c40,
     #0cdb2e
   ); 
-
   text-align: center;
   position: fixed;
   width: 100%;
   height: 100%;
 }
-
+.homepage-max {
+  background: #085c40; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #085c40,
+    #0cdb2e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #085c40,
+    #0cdb2e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  width: 100%;
+  height: max-content;
+}
 
 .homepage-unlock {
   background: #085c40; /* fallback for old browsers */
@@ -76,9 +89,7 @@ h2, h4 ,h3 {
   text-align: center;
   width: 100%;
   height: 100vh;
-
 }
-
 
 .header-color {
   background: #de6161; /* fallback for old browsers */

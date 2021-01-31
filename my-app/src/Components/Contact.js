@@ -9,7 +9,7 @@ import {
 class Contact extends Component {
   render() {
     return (
-      <div className='homepage-grid' >
+      <div className='homepage-unlock' >
         <Container fluid>
           <Row>
             <Col xs={4} sm={4} md={4} lg={4} xl={5} style={{ paddingTop: '3%' }}>
