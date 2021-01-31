@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 
-import { Card, Button, Row, Col } from 'react-bootstrap';
+
+import "../../../node_modules/video-react/dist/video-react.css";
+import { Player } from 'video-react';
+import { Card, Button, Row, Container } from 'react-bootstrap';
 
 class JavaProjects extends Component {
   constructor(props) {
@@ -30,14 +33,20 @@ class JavaProjects extends Component {
 
   render() {
     return (
-      <div className='homepage-grid'>
-        <Row className="fix-in-center">
+      <div className='homepage-grid ' >
+        <Container fluid>
+          <Row className="fix-in-center">
             {/*elevator sim */}
             <Card style={{ width: '20rem', margin: '3%' }}>
               <Card.Header>Elevator Simulation</Card.Header>
-              <Card.Img variant="top" src="images/elevatorSim.png" />
+              <Player
+                playsInline
+                src="https://www.youtube.com/embed/oypPT_91QQs"
+                fluid={false}
+                width={'22rem'}
+                height={220}
+              />
               <Card.Body>
-                {/* <Card.Title>Elevator Simulation</Card.Title> */}
                 <Card.Text>
                   This is .....................This is .....................This is .....................
             <br />
@@ -50,10 +59,17 @@ class JavaProjects extends Component {
               </Card.Body>
             </Card>
 
-          {/* Android game */}
+            {/* Android game */}
             <Card style={{ width: '20rem', margin: '3%' }}>
               <Card.Header>Android game</Card.Header>
-              <Card.Img variant="top" src="images/android.jpg" />
+              {/* <Card.Img variant="top" src="images/android.jpg" /> */}
+              <Player
+                playsInline
+                src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+                fluid={false}
+                width={'22rem'}
+                height={220}
+              />
               <Card.Body>
                 {/* <Card.Title>Android game</Card.Title> */}
                 <Card.Text>
@@ -67,7 +83,9 @@ class JavaProjects extends Component {
                   onClick={this.androidGameVideo.bind(this)} >Video</Button>
               </Card.Body>
             </Card>
-        </Row>
+          </Row>
+        </Container>
+
       </div>
     );
   }

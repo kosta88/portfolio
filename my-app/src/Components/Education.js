@@ -11,10 +11,10 @@ class Education extends Component {
         return (
             <Container fluid>
                 <Row>
-                    <Col sm={4}>
+                    <Col xs={4} sm={4} md={4} lg={4} xl={5}>
                         <p>{this.props.startYear} - {this.props.endYear}</p>
                     </Col>
-                    <Col>
+                    <Col xs={8} sm={8} md={8} lg={8} xl={7} >
                     <h5 style={{ marginTop: '0px' }}>{this.props.degreeName}</h5>
                     <p>{this.props.schoolName}</p>
                     </Col>

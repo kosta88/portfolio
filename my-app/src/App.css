@@ -62,7 +62,7 @@ h2, h4 ,h3 {
 
 
 .homepage-unlock {
-  background: #de6161; /* fallback for old browsers */
+  background: #085c40; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #085c40,
@@ -75,6 +75,8 @@ h2, h4 ,h3 {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   height: max-content;
+  width: max-content;
+
 }
 
 
