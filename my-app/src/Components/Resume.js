@@ -43,7 +43,7 @@ class Resume extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
-                  href="https://drive.google.com/file/d/1-Fft3V2hseraJsbM0gdbOy9KMsejcUpy/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1sVCeklaCglCU3E3E38WrcBdOG42gMM7M/view?usp=sharing"
                 > click to View
             </a>
               </div>

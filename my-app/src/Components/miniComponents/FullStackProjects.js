@@ -16,7 +16,7 @@ class FullstackProjects extends Component {
     }
     render() {
         return (
-            <div className='homepage-grid'>
+            <div className='homepage-unlock'>
                 <Row className="fix-in-center">
                     {/*fullsatck app */}
                     <Card style={{ width: '20rem', margin: '3%' }}>

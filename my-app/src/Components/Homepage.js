@@ -11,7 +11,7 @@ import {
 class Homepage extends Component {
   render() {
     return (
-      <div className='homepage-grid' >
+      <div className='homepage-unlock' >
 
           <div className="profile-img-border">
             <img
