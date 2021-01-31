@@ -16,7 +16,8 @@ class Skills extends Component {
                     </Col>
 
                     <Col xs={8} sm={8} md={8} lg={8} xl={7} style={{paddingTop:'3%'}}>
-                        <ProgressBar variant="success" now={this.props.progress} />
+                        <ProgressBar animated='true' variant="success" now={this.props.progress} 
+                        style={{width:'80%', height:'25%'}} />
                         </Col>
                         </Row>
                     </Container>

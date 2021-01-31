@@ -15,11 +15,13 @@ class Education extends Component {
                         <p>{this.props.startYear} - {this.props.endYear}</p>
                     </Col>
                     <Col xs={8} sm={8} md={8} lg={8} xl={7} >
-                    <h5 style={{ marginTop: '0px' }}>{this.props.degreeName}</h5>
-                    <p>{this.props.schoolName}</p>
+                        <h5 style={{ marginTop: '0px' }}>{this.props.degreeName}
+                        </h5>
+                        <p>{this.props.schoolName}</p>
                     </Col>
                 </Row>
-            </Container >        );
+            </Container >
+        );
     }
 }
 

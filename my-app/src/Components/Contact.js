@@ -1,5 +1,10 @@
 import React, { Component } from "react";
 import { Container, Row, Col, } from 'react-bootstrap';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faEnvelope,
+  faPhone,
+} from '@fortawesome/free-solid-svg-icons';
 
 class Contact extends Component {
   render() {
@@ -30,9 +35,15 @@ class Contact extends Component {
               <hr style={{ borderTop: "1px solid black", width: "55%" }} />
               <div >
                 <ul style={{ listStyleType: 'none', marginRight: '5%' }}>
-                  <li>+972-559875495</li>
+                  <li>
+                  <FontAwesomeIcon icon={faPhone} style={{marginRight:'4%'}}>
+                </FontAwesomeIcon >
+                    +972-559875495</li>
                   <br />
-                  <li>kostiask@gmail.com</li>
+                  <li>
+                  <FontAwesomeIcon icon={faEnvelope} style={{marginRight:'2%'}}>
+                </FontAwesomeIcon >
+                kostiask@gmail.com</li>
                 </ul>
               </div>
             </Col>
