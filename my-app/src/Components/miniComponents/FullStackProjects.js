@@ -16,10 +16,10 @@ class FullstackProjects extends Component {
     }
     render() {
         return (
-            <div className='homepage-unlock'>
+            <div className='homepage-full'>
                 <Row className="fix-in-center">
                     {/*fullsatck app */}
-                    <Card style={{ width: '20rem', margin: '3%' }}>
+                    <Card style={{ background: 'beige', width: '20rem', margin: '3%' }}>
                         <Card.Header>FullStack Application</Card.Header>
                         <ReactPlayer width={'20rem'}
                             height={220}

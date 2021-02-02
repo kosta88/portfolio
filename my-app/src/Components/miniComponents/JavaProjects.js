@@ -5,7 +5,6 @@ import { Card, Button, Row, Container } from 'react-bootstrap';
 class JavaProjects extends Component {
   constructor(props) {
     super(props);
-
     this.elevatorSim = () => {
       window.location.assign(
         "https://github.com/kosta88/ElevatorSimulation"
@@ -24,30 +23,28 @@ class JavaProjects extends Component {
         <Container fluid>
           <Row className="fix-in-center">
             {/*elevator sim */}
-            <Card style={{ width: '20rem', margin: '3%' }}>
+            <Card style={{ background: 'beige', width: '20rem', margin: '3%' }}>
               <Card.Header>Elevator Simulation</Card.Header>
               <ReactPlayer width={'20rem'}
                 height={220}
-               url='https://youtu.be/xKjRKND1ABg' />
+                url='https://youtu.be/xKjRKND1ABg' />
               <Card.Body>
                 <Card.Text>
                   implementing different Elevators and different
                   scheduling algorithms which are compared by the waiting and execution time of simulated passengers
-            {/* <br /> */}
                 </Card.Text>
                 <Button style={{ margin: "0 25px" }} raised variant="primary"
                   onClick={this.elevatorSim.bind(this)} >Github</Button>
               </Card.Body>
             </Card>
 
-
-
             {/* Android game */}
-            <Card style={{ width: '20rem', margin: '3%' }}>
-              <Card.Header>Android game</Card.Header>
+            <Card style={{ background: 'beige', width: '20rem', margin: '3%' }}>
+              <Card.Header >Android game</Card.Header>
               <ReactPlayer width={'20rem'}
                 height={220}
-               url='https://youtu.be/xKjRKND1ABg' />
+                volume={0.1}
+                url='https://youtu.be/egN2o8vE4vo' />
               <Card.Body>
                 <Card.Text>
                   <br />
@@ -60,6 +57,8 @@ class JavaProjects extends Component {
             </Card>
           </Row>
         </Container>
+        <br />   <br />          <br />    <br />          <br /> <br />    <br /> <br />          <br />
+        <p></p>
       </div>
     );
   }

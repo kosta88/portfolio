@@ -7,19 +7,18 @@ import Main from "./Components/Main";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 
-
-
 function App() {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{color:'#fff'}}>
         <Navbar.Brand href="/">
         <FontAwesomeIcon icon={faHome} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
         <Navbar.Collapse id="responsive-navbar-nav">
 
-          <Nav className="mr-auto" >
+          {/* <Nav className="mr-auto" >          </Nav> */}
+
             {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -27,7 +26,6 @@ function App() {
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
       </NavDropdown> */}
-          </Nav>
 
           <Nav >
             <Nav.Link href="/Resume">Resume</Nav.Link>

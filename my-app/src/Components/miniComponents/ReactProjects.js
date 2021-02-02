@@ -16,10 +16,10 @@ class ReactProjects extends Component {
 
   render() {
     return (
-      <div className='homepage-unlock'>
+      <div className='homepage-full'>
         <Row className="fix-in-center">
           {/*fullsatck app */}
-          <Card style={{ width: '20rem', margin: '3%' }}>
+          <Card style={{ background: 'beige' ,width: '20rem', margin: '3%' }}>
             <Card.Header>Portfolio Application</Card.Header>
             {/* <Card.Img variant="top" src="" /> */}
             <ReactPlayer width={'20rem'}
