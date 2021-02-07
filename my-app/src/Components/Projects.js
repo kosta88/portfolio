@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Container, Tabs, Tab, Row, Col } from 'react-bootstrap';
+import { Tabs, Tab} from 'react-bootstrap';
 
 
 import JavaProjects from './miniComponents/JavaProjects'
