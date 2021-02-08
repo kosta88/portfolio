@@ -10,7 +10,7 @@ class Homepage extends Component {
   render() {
     return (
       <div className='homepage-full' >
-
+          <br/>
           <div className="profile-img-border">
             <img
               className="profile-img"
