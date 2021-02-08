@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactPlayer from 'react-player'
-import { Card, Button, Row } from 'react-bootstrap';
+import { Card, Button, Row, Container } from 'react-bootstrap';
 
 
 class FullstackProjects extends Component {
@@ -16,14 +16,15 @@ class FullstackProjects extends Component {
     }
     render() {
         return (
-            <div className='homepage-full'>
+            <div >
+                <Container>
                 <Row className="fix-in-center">
                     {/*fullsatck app */}
                     <Card style={{ background: 'beige', width: '20rem', margin: '3%' }}>
                         <Card.Header>FullStack Application</Card.Header>
                         <ReactPlayer width={'20rem'}
                             height={220}
-                            url='https://youtu.be/xKjRKND1ABg' />
+                            url='http://youtu.be/xKjRKND1ABg' />
                         <Card.Body>
                             {/* <Card.Title>Elevator Simulation</Card.Title> */}
                             <Card.Text>Frontend Application- React JS
@@ -32,7 +33,7 @@ class FullstackProjects extends Component {
                                mongoDB, mongoose
                                           <br />
                             </Card.Text>
-                            <Button style={{ margin: "0 25px" }} raised variant="primary"
+                            <Button style={{ margin: "0 25px" }} variant="primary"
                                 onClick={this.appLink.bind(this)} >Link</Button>
 
                             {/* <Button style={{ margin: "0 25px" }} raised variant="primary"
@@ -41,6 +42,7 @@ class FullstackProjects extends Component {
                         </Card.Body>
                     </Card>
                 </Row>
+                </Container>
             </div>
         );
     }

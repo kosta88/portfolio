@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactPlayer from 'react-player'
-import { Card, Button, Row } from 'react-bootstrap';
+import { Card, Button, Row ,Container} from 'react-bootstrap';
 
 
 class ReactProjects extends Component {
@@ -16,7 +16,8 @@ class ReactProjects extends Component {
 
   render() {
     return (
-      <div className='homepage-full'>
+      <div >
+        <Container>
         <Row className="fix-in-center">
           {/*fullsatck app */}
           <Card style={{ background: 'beige' ,width: '20rem', margin: '3%' }}>
@@ -24,7 +25,7 @@ class ReactProjects extends Component {
             {/* <Card.Img variant="top" src="" /> */}
             <ReactPlayer width={'20rem'}
                 height={220}
-               url='https://youtu.be/xKjRKND1ABg' />
+               url='http://youtu.be/xKjRKND1ABg' />
 
             <Card.Body>
               {/* <Card.Title>Elevator Simulation</Card.Title> */}
@@ -33,12 +34,13 @@ class ReactProjects extends Component {
               A React JS Portfolio web Application
             <br />            <br />
               </Card.Text>
-              <Button style={{ margin: "0 25px" }} raised variant="primary"
+              <Button style={{ margin: "0 25px" }} variant="primary"
                 onClick={this.githubLink.bind(this)} >Github</Button>
 
             </Card.Body>
           </Card>
         </Row>
+        </Container>
       </div>
     );
   }

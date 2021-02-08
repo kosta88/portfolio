@@ -16,69 +16,22 @@ h2, h4 ,h3 {
   /* padding: 10px; */
   background-color: beige;
 }
-.color-text-box {
-  background:  #5f330b; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #5f330b,
-    #500909c0
-  );
-  background: linear-gradient(
-    to right,
-    #5f330b,
-    #500909c0
-  ); 
-  border-color: black;
-  border-width: 3px;
-}
-.homepage-grid {
-  background:  #085c40; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #27221f,
-    #4b3e36
-  );
-  background: linear-gradient(
-    to right,
-    #27221f,
-    #4b3e36
-  ); 
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-}
-.homepage-max {
-  background: #27221f; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #27221f,
-    #4b3e36
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #27221f,
-    #4b3e36
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  text-align: center;
-  width: 100%;
-  height: max-content;
-}
 .homepage-full {
-  background: #27221f; /* fallback for old browsers */
+  background: #fce7d9; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #27221f,
-    #4b3e36
+    #ffceb0,
+    white
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #27221f,
-    #4b3e36
+    #ffceb0,
+    white
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
-  width: 100%;
-  height: 100vh;
+  width: inherit;
+  min-height: 100vh;
+  height: max-content;
 }
 
 .profile-img-border {
@@ -90,9 +43,17 @@ h2, h4 ,h3 {
   border: 2px solid #ddd;
   margin-left: auto;
   margin-right: auto;
-  /* margin-top: 2%; */
 }
 
+.icon-border {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1px;
+  /* margin-top: 2%; */
+}
 .profile-img-border img {
   width: 100%;
   height: 100%;;

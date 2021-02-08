@@ -12,8 +12,7 @@ class Projects extends Component {
 
   render() {
     return (
-    
-      <div >
+      <div className='homepage-full'>
           <Tabs  className='Tabs' defaultActiveKey="JAVA" id="uncontrolled-tab" style={{  }}>
             <Tab eventKey="JAVA" title="JAVA">
               <JavaProjects />

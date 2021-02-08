@@ -4,12 +4,12 @@ import { } from 'react-bootstrap';
 
 function Aboutme() {
   return (
-    <div className='homepage-grid'>
+    <div className='homepage-full' >
 
 
       <div className=''
         style={{ padding: '3%', borderRadius: '20%' }}>
-          <h1 style={{ color: 'khaki', textTransform: 'uppercase', fontFamily: 'Anton, sans-serif' }}>
+          <h1 style={{  textTransform: 'uppercase', fontFamily: 'Anton, sans-serif' }}>
           Sklonnie Konstantin</h1>
         <img style={{ height: "85pt" }}
           src="images/kosta.jpg" alt="avatar" />

@@ -32,7 +32,7 @@ class Homepage extends Component {
                  <a href="https://www.linkedin.com/in/kostas2019/"
                 rel="noopener noreferrer"
                 target="_blank"  >
-                <FontAwesomeIcon icon={faLinkedin}>
+                <FontAwesomeIcon className='icon-border' icon={faLinkedin}>
                 </FontAwesomeIcon >
               </a>
 
@@ -40,7 +40,7 @@ class Homepage extends Component {
               <a  href="https://github.com/kosta88"
                 rel="noopener noreferrer"
                 target="_blank"  >
-                <FontAwesomeIcon icon={faGithubAlt}>
+                <FontAwesomeIcon className='icon-border' icon={faGithubAlt}>
                 </FontAwesomeIcon >
               </a>
 
@@ -49,7 +49,7 @@ class Homepage extends Component {
                 href="https://www.facebook.com/kostiask"
                 rel="noopener noreferrer"
                 target="_blank"  >
-                <FontAwesomeIcon icon={faFacebook}>
+                <FontAwesomeIcon className='icon-border' icon={faFacebook}>
                 </FontAwesomeIcon >
               </a>
             </div>

@@ -9,11 +9,11 @@ import {
 class Contact extends Component {
   render() {
     return (
-      <div className='homepage-full'  style={{color:'#fff'}}>
+      <div className='homepage-full'  style={{color:'black'}}>
         <Container fluid>
           <div style={{ textAlign: "center" }}>
           <br />
-            <h2>Sklonnie Konstantin</h2>
+            <h1>Sklonnie Konstantin</h1>
             <img style={{ height: "85pt" }}
               src="images/kosta.jpg" alt="avatar" />
           </div>
