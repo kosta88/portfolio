@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 import { Tabs, Tab} from 'react-bootstrap';
 
-
 import JavaProjects from './miniComponents/JavaProjects'
 import ReactProjects from './miniComponents/ReactProjects'
 import CppProjects from './miniComponents/CppProjects'
@@ -13,7 +12,7 @@ class Projects extends Component {
   render() {
     return (
       <div className='homepage-full'>
-          <Tabs  className='Tabs' defaultActiveKey="JAVA" id="uncontrolled-tab" style={{  }}>
+          <Tabs className='Tabs' defaultActiveKey="JAVA" id="uncontrolled-tab" style={{ marginBottom: '2%' }}>
             <Tab eventKey="JAVA" title="JAVA">
               <JavaProjects />
             </Tab>

@@ -12,16 +12,12 @@ import Skills from "./Skills";
 class Resume extends Component {
   render() {
     return (
-      <div style={{ background: '#27221f', color: '#fff'  ,textAlign: "center"}}>
+      <div className='cv-full' >
         <Container fluid>
           <Row>
             <Col  style={{ padding: "2%" }}>
               <div style={{ textAlign: "center" }}>
-                <img
-                  src="images/kosta.jpg"
-                  alt="avatar"
-                  style={{ height: "150pt" }}
-                />
+                <img src="images/mainRed.jpeg"  alt="avatar" style={{ height: "150pt" }}  />
 
                 <h2 style={{ paddingTop: '1%' }}>Sklonnie Konstantin</h2>
                 <hr style={{ borderTop: "1px solid #833fb2", width: "75%" }} />
@@ -38,7 +34,7 @@ class Resume extends Component {
                 <p>+972 55-9875495</p>
                 <h5>Email</h5>
                 <p>kostiask@gmail.com</p>
-                <h5>View CV *.pdf file</h5>
+                <h5>View pdf file</h5>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"

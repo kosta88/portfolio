@@ -20,14 +20,13 @@ class ReactProjects extends Component {
         <Container>
         <Row className="fix-in-center">
           {/*fullsatck app */}
-          <Card style={{ background: 'beige' ,width: '20rem', margin: '3%' }}>
-            <Card.Header>Portfolio Application</Card.Header>
+          <Card style={{ width: '20rem', margin: '3%' }}>
+            <Card.Header style={{background: '#2E2E2E',color:'#E9E9E9',fontWeight:'bolder'}}>Portfolio Application</Card.Header>
             {/* <Card.Img variant="top" src="" /> */}
             <ReactPlayer width={'20rem'}
                 height={220}
                url='http://youtu.be/xKjRKND1ABg' />
-
-            <Card.Body>
+            <Card.Body style={{ background: '#04ECF0'}}>
               {/* <Card.Title>Elevator Simulation</Card.Title> */}
               <Card.Text>
                 <br />
@@ -36,7 +35,6 @@ class ReactProjects extends Component {
               </Card.Text>
               <Button style={{ margin: "0 25px" }} variant="primary"
                 onClick={this.githubLink.bind(this)} >Github</Button>
-
             </Card.Body>
           </Card>
         </Row>

@@ -1,7 +1,7 @@
 p , h1 {
   font-family: serif;
 }
-h2, h4 ,h3 {
+h2, h4 ,h3, h5 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .fix-in-center {
@@ -13,25 +13,27 @@ h2, h4 ,h3 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  /* padding: 10px; */
-  background-color: beige;
+  background-color: #04D4F0;
 }
+
 .homepage-full {
-  background: #fce7d9; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #ffceb0,
-    white
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #ffceb0,
-    white
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: linear-gradient(to left top, #ffffff, #f3f9ff, #dbf6ff, #baf5ff, #98f4ff, #97f5fc, #97f5f9, #97f6f5, #b3f9f8, #cbfbfb, #e3fdfd, #f9ffff);
   text-align: center;
   width: inherit;
   min-height: 100vh;
   height: max-content;
+}
+.cv-full {
+  background: #27221f  ; /* fallback for old browsers */
+  text-align: center;
+  width: inherit;
+  min-height: 100vh;
+  height: max-content;
+  color: #fff;
+}
+
+.img-borders{
+  border: 1px solid #059DC0;
 }
 
 .profile-img-border {
@@ -40,27 +42,14 @@ h2, h4 ,h3 {
   height: 200pt;
   overflow: hidden;
   border-radius: 50%;
-  border: 2px solid #ddd;
+  border: 2px solid #059DC0;
   margin-left: auto;
   margin-right: auto;
-}
-
-.icon-border {
-  position: relative;
-  overflow: hidden;
-  border: 1px solid #ddd;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1px;
-  /* margin-top: 2%; */
 }
 .profile-img-border img {
   width: 100%;
   height: 100%;;
 }
-
-
-
 .header-color {
   background: #de6161; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -74,32 +63,25 @@ h2, h4 ,h3 {
     #de6161
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
-
-
-
 .banner-text {
-  border-radius: 15%;
-  background-color: black;
-  opacity: 0.75;
-  width: 40%;
+  overflow: hidden;
+  border-radius: 20%;
+  background-color: #27221f;
+  width: 60%;
   margin: auto;
   margin-top: 2%;
-  border: 2px solid #ddd;
+  border: 3px solid #059DC0;
 
 }
-
 .banner-text h1 {
   font-weight: bold;
   color: #fff;
 }
-
 .banner-text hr {
   border-top: 5px dotted white;
   width: 50%;
   margin: auto;
 }
-
 .banner-text {
   color: white;
   padding: 1em;
@@ -107,11 +89,6 @@ h2, h4 ,h3 {
   padding-left: 1%;
   padding-right: 1%;
 }
-
-p {
-  padding: 1em;
-}
-
 .social-links {
   display: flex;
   justify-content: space-between;
@@ -119,40 +96,15 @@ p {
   margin: auto;
   padding-bottom: 3%;
 }
-
 .social-links i {
   color: white;
   padding: 1%;
   font-size: 5em;
 }
-
-.projects-grid {
-  margin: auto;
-  width: 100%;
-}
-
-.project-item {
-  float: left;
-  margin: 10%;
-}
-
-.contact-body {
-  margin: auto;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  padding-top: 2em;
-}
-
-
-.contact-grid hr {
-  border-top: 5px dotted black;
-  margin: auto;
-  width: 50%;
-}
-
 .resume-right-col {
   background: #27221f;
   color: #fff;
+}
+.bg-custom {
+  background: linear-gradient(to bottom, #8259cb 0, #673ab7 100%);
 }

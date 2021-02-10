@@ -14,13 +14,13 @@ class Contact extends Component {
           <div style={{ textAlign: "center" }}>
           <br />
             <h1>Sklonnie Konstantin</h1>
-            <img style={{ height: "85pt" }}
-              src="images/kosta.jpg" alt="avatar" />
+            <img className='img-borders' style={{ height: "125pt" , margin:'1%'}}
+              src="images/mainWhite.jpeg" alt="avatar" />
           </div>
           <h3>Contact info</h3>
           <hr style={{ borderTop: "2px solid black", width: "25%" }} />
           <div >
-            <ul style={{ listStyleType: 'none', marginRight: '5%' }}>
+            <ul style={{ listStyleType: 'none'}}>
               <li>
                 <FontAwesomeIcon icon={faPhone} style={{ marginRight: '4%' }}>
                 </FontAwesomeIcon >

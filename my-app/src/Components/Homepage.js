@@ -14,11 +14,10 @@ class Homepage extends Component {
           <div className="profile-img-border">
             <img
               className="profile-img"
-              src="images/kosta.jpg"
+              src="images/mainRed.jpeg"
             // alt="******"
             />
           </div>
-
 
           <div className="banner-text" >
             <h1 style={{paddingBottom:'2%'}}>Computer Science graduate</h1>
@@ -32,7 +31,7 @@ class Homepage extends Component {
                  <a href="https://www.linkedin.com/in/kostas2019/"
                 rel="noopener noreferrer"
                 target="_blank"  >
-                <FontAwesomeIcon className='icon-border' icon={faLinkedin}>
+                <FontAwesomeIcon size='2x' icon={faLinkedin}>
                 </FontAwesomeIcon >
               </a>
 
@@ -40,7 +39,7 @@ class Homepage extends Component {
               <a  href="https://github.com/kosta88"
                 rel="noopener noreferrer"
                 target="_blank"  >
-                <FontAwesomeIcon className='icon-border' icon={faGithubAlt}>
+                <FontAwesomeIcon size='2x' icon={faGithubAlt}>
                 </FontAwesomeIcon >
               </a>
 
@@ -49,7 +48,7 @@ class Homepage extends Component {
                 href="https://www.facebook.com/kostiask"
                 rel="noopener noreferrer"
                 target="_blank"  >
-                <FontAwesomeIcon className='icon-border' icon={faFacebook}>
+                <FontAwesomeIcon size='2x' icon={faFacebook}>
                 </FontAwesomeIcon >
               </a>
             </div>
