@@ -24,11 +24,11 @@ class JavaProjects extends Component {
           <Row className="fix-in-center">
             {/*elevator sim */}
             <Card style={{ width: '20rem', margin: '3%' }}>
-              <Card.Header style={{background: '#2E2E2E',color:'#E9E9E9',fontWeight:'bolder'}} >Elevator Simulation</Card.Header>
-              <ReactPlayer width={'20rem'}
+              <Card.Header style={{ background: '#303030', color: '#E9E9E9', fontWeight: 'bolder' }} >Elevator Simulation</Card.Header>
+              <ReactPlayer width={'fill'}
                 height={220}
                 url='http://youtu.be/xKjRKND1ABg' />
-              <Card.Body style={{ background: '#04ECF0'}}>
+              <Card.Body style={{ background: '#04ECF0' }}>
                 <Card.Text>
                   A <b>Java</b> Simulation
                   implementing different
@@ -40,25 +40,23 @@ class JavaProjects extends Component {
             </Card>
 
             {/* Android game */}
-            <Card style={{width: '20rem', margin: '3%' }}>
-              <Card.Header style={{background: '#2E2E2E',color:'#E9E9E9',fontWeight:'bolder'}}>Android game</Card.Header>
-              <ReactPlayer width={'20rem'}
+            <Card style={{ width: '20rem', margin: '3%' }}>
+              <Card.Header style={{ background: '#303030', color: '#E9E9E9', fontWeight: 'bolder' }}>Android game</Card.Header>
+              <ReactPlayer width={'fill'}
                 height={220}
                 volume={0.05}
                 url='http://youtu.be/egN2o8vE4vo' />
-              <Card.Body style={{ background: '#04ECF0'}}>
+              <Card.Body style={{ background: '#04ECF0' }}>
                 <Card.Text>
                   <br />
-                  An android game application written in AndroidStudio using <b>Java</b> and FireBase
+                  An android game application written in AndroidStudio using <b>Java</b> and <b>FireBase</b>
             <br />            <br />
                 </Card.Text>
                 <Button style={{ margin: "0 25px" }} variant="primary"
                   onClick={this.androidGame.bind(this)} >Google Play</Button>
               </Card.Body>
             </Card>
-
           </Row>
-        <p></p>
         </Container>
       </div>
     );

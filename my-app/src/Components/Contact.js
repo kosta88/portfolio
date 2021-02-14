@@ -6,6 +6,8 @@ import {
   faPhone,
 } from '@fortawesome/free-solid-svg-icons';
 
+import MyFooter from './miniComponents/MyFooter'
+
 class Contact extends Component {
   render() {
     return (
@@ -19,10 +21,11 @@ class Contact extends Component {
           </div>
           <h3>Contact info</h3>
           <hr style={{ borderTop: "2px solid black", width: "25%" }} />
-          <div >
+          
+          <div style={{padding:'1%'}}>
             <ul style={{ listStyleType: 'none'}}>
               <li>
-                <FontAwesomeIcon icon={faPhone} style={{ marginRight: '4%' }}>
+                <FontAwesomeIcon icon={faPhone} style={{ marginRight: '3%' }}>
                 </FontAwesomeIcon >
                     +972-559875495</li>
               <br />
@@ -31,18 +34,20 @@ class Contact extends Component {
                 </FontAwesomeIcon >
                 kostiask@gmail.com</li>
             </ul>
-            <hr style={{ borderTop: "2px solid black", width: "55%" }} />
-            <p style={{ fontSize: '85%', width: '95%', margin: 'auto' }}>
+            </div>
+
+            <hr style={{ borderTop: "2px solid black", width: "40%" }} />
+
+            <h5 style={{ margin: 'auto', padding:'2%' }}>
               I have been very passionate about computers and programming since
               my university life.
               <br />
               I dream to be an expert software engineer so
               that I can build professional and useful software that has
               business value.
-            </p>
-          </div>
-
+            </h5>
         </Container>
+        <MyFooter/>
       </div>
     );
   }

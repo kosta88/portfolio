@@ -15,17 +15,18 @@ class Resume extends Component {
       <div className='cv-full' >
         <Container fluid>
           <Row>
-            <Col  style={{ padding: "2%" }}>
-              <div style={{ textAlign: "center" }}>
-                <img src="images/mainRed.jpeg"  alt="avatar" style={{ height: "150pt" }}  />
-
+            <Col style={{ paddingTop: "1%" }} >
+                <img
+                  src="images/main.jpeg"
+                  alt="avatar"
+                  style={{ height: "150pt" }}
+                />
                 <h2 style={{ paddingTop: '1%' }}>Sklonnie Konstantin</h2>
                 <hr style={{ borderTop: "1px solid #833fb2", width: "75%" }} />
                 <p style={{ padding: '1%' }}>
                   A recent computer science graduate with high motivation to put my current knowledge into
              <br /> use and great passion to learn and explore new technologies <br />
             Good team worker with great communication skills </p>
-
                 {/* <h4 style={{ color: "grey" }}>Asp .Net Developer</h4> */}
                 <hr style={{ borderTop: "1px solid #833fb2", width: "75%" }} />
                 <h5>Address</h5>
@@ -42,15 +43,10 @@ class Resume extends Component {
                   href="https://drive.google.com/file/d/1sVCeklaCglCU3E3E38WrcBdOG42gMM7M/view?usp=sharing"
                 > click to View
             </a>
-              </div>
             </Col>
 
-
-            <Col
-              style={{ background: '#27221f', color: '#fff', width: '100%', height: '100%' }} >
-
+            <Col >
               <hr style={{ borderTop: "2px solid #e22947", width: "80%" }} />
-
               <h4 style={{ marginTop: '1%', marginBottom: '1%' }}>Education</h4>
               <Education
                 startYear={2016}
@@ -86,6 +82,7 @@ class Resume extends Component {
 
 
               <h4 style={{ marginBottom: '2%' }}>Skills</h4>
+
               <Skills skill={"Java"} progress={85} />
               <Skills skill={"JavaScript"} progress={90} />
               <Skills skill={"C++"} progress={80} />
@@ -94,6 +91,7 @@ class Resume extends Component {
               <Skills skill={"Node js"} progress={65} />
               <Skills skill={"Express js"} progress={70} />
               <Skills skill={"MongoDB"} progress={55} />
+              
               <hr style={{ borderTop: "2px solid #e22947", width: "80%" }} />
 
               <div style={{ textAlign: 'center' }}>
@@ -109,8 +107,7 @@ class Resume extends Component {
               <br /><br /><br />
             </Col>
           </Row>
-        </Container>
-
+          </Container>
       </div>
     );
   }

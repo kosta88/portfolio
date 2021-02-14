@@ -1,10 +1,11 @@
-p , h1 {
+p  {
   font-family: serif;
 }
-h2, h4 ,h3, h5 {
+h1, h2, h4 ,h3, h5 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .fix-in-center {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -23,6 +24,7 @@ h2, h4 ,h3, h5 {
   min-height: 100vh;
   height: max-content;
 }
+
 .cv-full {
   background: #27221f  ; /* fallback for old browsers */
   text-align: center;
@@ -63,11 +65,12 @@ h2, h4 ,h3, h5 {
     #de6161
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 .banner-text {
   overflow: hidden;
   border-radius: 20%;
   background-color: #27221f;
-  width: 60%;
+  width: 80vw;
   margin: auto;
   margin-top: 2%;
   border: 3px solid #059DC0;
@@ -77,10 +80,12 @@ h2, h4 ,h3, h5 {
   font-weight: bold;
   color: #fff;
 }
+
 .banner-text hr {
   border-top: 5px dotted white;
   width: 50%;
   margin: auto;
+  margin-bottom: 3%;
 }
 .banner-text {
   color: white;
@@ -89,12 +94,15 @@ h2, h4 ,h3, h5 {
   padding-left: 1%;
   padding-right: 1%;
 }
+
 .social-links {
   display: flex;
   justify-content: space-between;
   width: 50%;
   margin: auto;
   padding-bottom: 3%;
+  padding: 1%;
+
 }
 .social-links i {
   color: white;
@@ -107,4 +115,11 @@ h2, h4 ,h3, h5 {
 }
 .bg-custom {
   background: linear-gradient(to bottom, #8259cb 0, #673ab7 100%);
+}
+
+.footer {
+  position: absolute;
+  bottom: 3%;
+  width: 60%;
+  height: 5%;            /* Footer height */
 }

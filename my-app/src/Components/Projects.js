@@ -7,6 +7,9 @@ import ReactProjects from './miniComponents/ReactProjects'
 import CppProjects from './miniComponents/CppProjects'
 import FullstackProjects from './miniComponents/FullStackProjects'
 
+import MyFooter from './miniComponents/MyFooter'
+
+
 class Projects extends Component {
 
   render() {
@@ -28,6 +31,8 @@ class Projects extends Component {
             </Tab> */}
 
           </Tabs>
+
+          {/* <MyFooter/> */}
       </div>
     );
   }

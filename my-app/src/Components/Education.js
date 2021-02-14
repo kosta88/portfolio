@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {
-    Container,
     Row,
     Col,
 } from 'react-bootstrap';
@@ -9,7 +8,7 @@ import {
 class Education extends Component {
     render() {
         return (
-            <Container fluid>
+            <div>
                 <Row>
                     <Col xs={4} sm={4} md={4} lg={4} xl={5}>
                         <p>{this.props.startYear} - {this.props.endYear}</p>
@@ -20,7 +19,7 @@ class Education extends Component {
                         <p>{this.props.schoolName}</p>
                     </Col>
                 </Row>
-            </Container >
+            </div >
         );
     }
 }

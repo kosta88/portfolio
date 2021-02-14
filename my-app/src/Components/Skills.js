@@ -9,18 +9,18 @@ import {
 class Skills extends Component {
     render() {
         return (
-            <Container fluid>
+            <div>
                 <Row>
-                    <Col>
+                    <Col xs={5}>
                         <p>{this.props.skill}</p>
                     </Col>
 
-                    <Col style={{paddingTop:'4%'}}>
+                    <Col xs={7}>
                         <ProgressBar animated='true' variant="success" now={this.props.progress} 
                         style={{width:'80%', height:'25%'}} />
                         </Col>
                         </Row>
-                    </Container>
+                    </div>
         );
     }
 }

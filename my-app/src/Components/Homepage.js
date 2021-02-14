@@ -14,7 +14,7 @@ class Homepage extends Component {
           <div className="profile-img-border">
             <img
               className="profile-img"
-              src="images/mainRed.jpeg"
+              src="images/main.jpeg"
             // alt="******"
             />
           </div>
