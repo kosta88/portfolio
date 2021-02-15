@@ -19,7 +19,7 @@ class FullstackProjects extends Component {
                     <Row className="fix-in-center">
                         {/*fullsatck app */}
                         <Card style={{ width: '20rem', margin: '3%' }}>
-                            <Card.Header style={{background: '#303030',color:'#E9E9E9', fontWeight: 'bolder' }}>Social Trivia Application</Card.Header>
+                            <Card.Header style={{background: '#303030',color:'#E9E9E9', fontWeight: 'bolder', fontSize:'1.15em' }}>Social Trivia Application</Card.Header>
                             <ReactPlayer width={'fill'}
                                 height={220}
                                 url='http://youtu.be/xKjRKND1ABg' />

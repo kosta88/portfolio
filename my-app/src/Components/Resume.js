@@ -5,38 +5,38 @@ import {
   Col,
 } from 'react-bootstrap';
 
-import Education from "./Education";
-import Skills from "./Skills";
+import Education from "./miniComponents/Education";
+import Skills from "./miniComponents/Skills";
 // import Experience from "./Experience";
 
 class Resume extends Component {
   render() {
     return (
-      <div className='cv-full' >
+      <div className='cv-full' style={{padding:'2em'}}>
         <Container fluid>
           <Row>
-            <Col style={{ paddingTop: "1%" }} >
+            <Col style={{ paddingTop: "1em" }} >
                 <img
                   src="images/main.jpeg"
                   alt="avatar"
-                  style={{ height: "150pt" }}
+                  style={{ height: "115pt" }}
                 />
-                <h2 style={{ paddingTop: '1%' }}>Sklonnie Konstantin</h2>
-                <hr style={{ borderTop: "1px solid #833fb2", width: "75%" }} />
-                <p style={{ padding: '1%' }}>
-                  A recent computer science graduate with high motivation to put my current knowledge into
-             <br /> use and great passion to learn and explore new technologies <br />
-            Good team worker with great communication skills </p>
+                <h1 style={{ paddingTop: '1em', fontSize:'1.75em' }}>Sklonnie Konstantin</h1>
+                <hr style={{ borderTop: "1px solid #833fb2", width: "25vw" }} />
+                <p style={{ padding: '1em' }}>
+                  A computer science graduate with high motivation to put my current knowledge into
+                 <br /> use and great passion to learn and explore new technologies <br />
+                  Good team worker with great communication skills </p>
                 {/* <h4 style={{ color: "grey" }}>Asp .Net Developer</h4> */}
-                <hr style={{ borderTop: "1px solid #833fb2", width: "75%" }} />
-                <h5>Address</h5>
+                <hr style={{ borderTop: "1px solid #833fb2", width: "25vw" }} />
+                <h5 style={{fontSize:'1.35em' }}>Address</h5>
                 <p>Israel</p>
-                <h5>Phone</h5>
+                <h5 style={{fontSize:'1.35em' }}>Phone</h5>
                 <p>+972 55-9875495</p>
-                <h5>Email</h5>
+                <h5 style={{fontSize:'1.35em' }}>Email</h5>
                 <p>kostiask@gmail.com</p>
-                <h5>View pdf file</h5>
-                <a
+                <h5 style={{fontSize:'1.35em' }}>View pdf file</h5>
+                <a style={{fontSize:'0.75em' }}
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
@@ -46,14 +46,15 @@ class Resume extends Component {
             </Col>
 
             <Col >
-              <hr style={{ borderTop: "2px solid #e22947", width: "80%" }} />
-              <h4 style={{ marginTop: '1%', marginBottom: '1%' }}>Education</h4>
+              <hr style={{ borderTop: "2px solid #e22947", width: "35vw" }} />
+              <h1 style={{ margin: '1em' ,fontSize:'1.55em' }}>Education</h1>
               <Education
                 startYear={2016}
                 endYear={2020}
                 schoolName={"Tel-Hai academic college"}
                 degreeName={"Computer science B.sc"}
               />
+              <br/>
               <Education
                 startYear={2014}
                 endYear={2016}
@@ -68,7 +69,7 @@ class Resume extends Component {
               /> */}
 
 
-              <hr style={{ borderTop: "2px solid #e22947", width: "80%" }} />
+              <hr style={{ borderTop: "2px solid #e22947", width: "35vw" }} />
 
               {/* <h4>Experience</h4>
             <Experience
@@ -81,7 +82,7 @@ class Resume extends Component {
               {/* <hr style={{ borderTop: "2px solid #e22947" }} /> */}
 
 
-              <h4 style={{ marginBottom: '2%' }}>Skills</h4>
+              <h1 style={{ margin: '0.95em' , fontSize:'1.55em'}}>Skills</h1>
 
               <Skills skill={"Java"} progress={85} />
               <Skills skill={"JavaScript"} progress={90} />
@@ -92,19 +93,17 @@ class Resume extends Component {
               <Skills skill={"Express js"} progress={70} />
               <Skills skill={"MongoDB"} progress={55} />
               
-              <hr style={{ borderTop: "2px solid #e22947", width: "80%" }} />
+              <hr style={{ borderTop: "2px solid #e22947", width: "35vw" }} />
 
-              <div style={{ textAlign: 'center' }}>
-                <h4>Languages</h4>
-                <ul style={{ listStyleType: 'none', marginRight: '5%' }}>
+              <div >
+                <h1 style={{ margin: '0.5em' , fontSize:'1.55em'}}>Languages</h1>
+                <ul style={{ listStyleType: 'none', marginRight: '2vw' }}>
                   <li>English</li>
                   <li>Hebrew</li>
                   <li>Russian</li>
                   <li>Chinese</li>
                 </ul>
               </div>
-
-              <br /><br /><br />
             </Col>
           </Row>
           </Container>

@@ -23,7 +23,7 @@ function App() {
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
       </NavDropdown> */}
-          <Nav >
+          <Nav>
             <Nav.Link href="/Resume">Resume</Nav.Link>
             <Nav.Link href="/Aboutme">About Me</Nav.Link>
             <Nav.Link href="/Projects">Projects</Nav.Link>

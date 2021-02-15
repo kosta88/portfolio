@@ -4,7 +4,7 @@ import { Tabs, Tab} from 'react-bootstrap';
 
 import JavaProjects from './miniComponents/JavaProjects'
 import ReactProjects from './miniComponents/ReactProjects'
-import CppProjects from './miniComponents/CppProjects'
+// import CppProjects from './miniComponents/CppProjects'
 import FullstackProjects from './miniComponents/FullStackProjects'
 
 import MyFooter from './miniComponents/MyFooter'
@@ -32,7 +32,7 @@ class Projects extends Component {
 
           </Tabs>
 
-          {/* <MyFooter/> */}
+          <MyFooter/>
       </div>
     );
   }

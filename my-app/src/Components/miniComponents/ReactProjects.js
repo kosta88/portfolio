@@ -20,8 +20,8 @@ class ReactProjects extends Component {
         <Container>
         <Row className="fix-in-center">
           {/*fullsatck app */}
-          <Card style={{ width: '20rem', margin: '3%' }}>
-            <Card.Header style={{background: '#303030',color:'#E9E9E9',fontWeight:'bolder'}}>Portfolio Application</Card.Header>
+          <Card style={{ width: '20rem', margin: '3%'}}>
+            <Card.Header style={{background: '#303030',color:'#E9E9E9',fontWeight:'bolder', fontSize:'1.15em'}}>Portfolio Application</Card.Header>
             {/* <Card.Img variant="top" src="" /> */}
             <ReactPlayer width={'fill'}
                 height={220}
