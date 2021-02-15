@@ -13,10 +13,10 @@ class Skills extends Component {
             <div>
                 <Container fluid>                
                 <Row>
-                    <Col>
+                    <Col xs={5}>
                         <p>{this.props.skill}</p>
                     </Col>
-                    <Col>
+                    <Col xs={7}>
                         <ProgressBar animated='true' variant="success" now={this.props.progress}
                             style={{ width: '22vw' }} />
                     </Col>

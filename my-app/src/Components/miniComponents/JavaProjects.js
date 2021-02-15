@@ -20,8 +20,7 @@ class JavaProjects extends Component {
   render() {
     return (
       <div >
-        <h3 style={{fontSize:'1.35em'}} >JAVA Projects</h3>
-        <hr style={{ borderTop: "1px solid black", width: "20vw" }} />
+        <h1 className='secondary-Headers'>JAVA Projects</h1>
         <Container>
           <Row className="fix-in-center">
             {/*elevator sim */}
@@ -31,7 +30,7 @@ class JavaProjects extends Component {
                 height={220}
                 url='http://youtu.be/xKjRKND1ABg' />
               <Card.Body style={{ background: '#04ECF0' }}>
-                <Card.Text >
+                <Card.Text>
                   A <b>Java</b> Simulation
                   implementing different
                   scheduling algorithms which are compared by the waiting and execution time of simulated passengers

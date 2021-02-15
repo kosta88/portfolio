@@ -15,6 +15,7 @@ class FullstackProjects extends Component {
     render() {
         return (
             <div >
+                <h1 className='secondary-Headers'>FullStack Projects</h1>
                 <Container>
                     <Row className="fix-in-center">
                         {/*fullsatck app */}
@@ -32,7 +33,7 @@ class FullstackProjects extends Component {
                                           
                                 </Card.Text>
                                 <Button style={{ margin: "0 25px" }} variant="primary"
-                                    onClick={this.appLink.bind(this)} >Link</Button>
+                                    onClick={this.appLink.bind(this)} >Visit</Button>
                                 {/* <Button style={{ margin: "0 25px" }} raised variant="primary"
                                 onClick={this.appVideo.bind(this)} >Demo Video</Button> */}
                             </Card.Body>

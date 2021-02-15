@@ -12,7 +12,12 @@ import Skills from "./miniComponents/Skills";
 class Resume extends Component {
   render() {
     return (
-      <div className='cv-full' style={{padding:'2em'}}>
+      <div className='cv-full' style={{padding:'0.5em'}}>
+        
+        {/* <h1 className='secondary-Headers'>Resume</h1>
+        <hr style={{ borderTop: "1px solid black", width: "10vw" }} /> */}
+
+
         <Container fluid>
           <Row>
             <Col style={{ paddingTop: "1em" }} >
@@ -36,7 +41,7 @@ class Resume extends Component {
                 <h5 style={{fontSize:'1.35em' }}>Email</h5>
                 <p>kostiask@gmail.com</p>
                 <h5 style={{fontSize:'1.35em' }}>View pdf file</h5>
-                <a style={{fontSize:'0.75em' }}
+                <a style={{fontSize:'0.75em', paddingBottom:'1em' }}
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
@@ -97,7 +102,7 @@ class Resume extends Component {
 
               <div >
                 <h1 style={{ margin: '0.5em' , fontSize:'1.55em'}}>Languages</h1>
-                <ul style={{ listStyleType: 'none', marginRight: '2vw' }}>
+                <ul style={{ listStyleType: 'none', marginRight: '1.95em' }}>
                   <li>English</li>
                   <li>Hebrew</li>
                   <li>Russian</li>

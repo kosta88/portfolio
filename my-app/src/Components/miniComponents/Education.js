@@ -10,10 +10,10 @@ class Education extends Component {
         return (
             <div>
                 <Row>
-                    <Col>
+                    <Col  xs={5}>
                         <p>{this.props.startYear} - {this.props.endYear}</p>
                     </Col>
-                    <Col >
+                    <Col  xs={7}>
                         <h5 style={{ marginTop: '0px' }}>{this.props.degreeName}</h5>
                         
                         <p>{this.props.schoolName}</p>

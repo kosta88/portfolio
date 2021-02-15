@@ -1,22 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Carter+One');
 .name-text{
   font-family: "Carter One", cursive;
-  font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-    color: rgba(61, 194, 235, 0.6);
-    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
-    padding-top: 0.75em;
+    color: #000000;
+    text-shadow: rgb(255, 255, 255) 2px 2px 2px;
+    padding-top: 0.5em;
     padding-bottom: 0.5em;
     font-size: 2.55em;
-    /* letter-spacing: 0.085em; */
-    word-spacing: 0.5em;
+    /* letter-spacing: 0.03em; */
+    word-spacing: 0.2em;
+}
+.secondary-Headers{
+  font-family: "Carter One", cursive;
+  text-decoration: underline 0.1px black ;
+  font-size: 2.15em;
+  padding-top: 0.2em;
 }
 
 p ,h1 ,h2 ,h4 ,h3 ,h5 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 } 
-
 ul, p{
   font-size:  0.95em;
 }
@@ -25,10 +29,6 @@ ul, p{
   justify-content: center;
   align-items: center;
 }
-.Card {
-  border-radius: 50%;
-
-}
 .Tabs {
   display: flex;
   justify-content: center;
@@ -36,36 +36,34 @@ ul, p{
   flex-wrap: wrap;
   background-color: #04D4F0;
 }
-
 .homepage-full {
-  background-image: linear-gradient(to left top, #ffffff, #f3f9ff, #dbf6ff, #baf5ff, #98f4ff, #97f5fc, #97f5f9, #97f6f5, #b3f9f8, #cbfbfb, #e3fdfd, #f9ffff);
+  background-image: linear-gradient(to left top, #ffffff, #f3f9ff, #dbf6ff, 
+  #baf5ff, #98f4ff, #97f5fc, #97f5f9, #97f6f5, #b3f9f8, #cbfbfb, #e3fdfd, #f9ffff);
   text-align: center;
   width: inherit;
   min-height: 100vh;
   height: max-content;
 }
-
 .cv-full {
   /* background: #27221f  ; */
-  background-image: linear-gradient(to left top, #1e1e1e, #272727, #303030, #3a3a3a, #444444, #434343, #434343, #424242, #383838, #2d2d2d, #232323, #1a1a1a);
+  background-image: linear-gradient(to left top, #1e1e1e, #272727, #303030,
+   #3a3a3a, #444444, #434343, #434343, #424242, #383838, #2d2d2d, #232323, #1a1a1a);
   text-align: center;
   width: inherit;
   min-height: 100vh;
   height: max-content;
   color: #fff;
 }
-
 .img-borders{
   border: 1px solid #059DC0;
 }
-
 .profile-img-border {
   position: relative;
   width: 125pt;
   height: 125pt;
   overflow: hidden;
   border-radius: 50%;
-  border: 2px solid #059DC0;
+  border: 1.5px solid #059DC0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -73,15 +71,18 @@ ul, p{
   width: 100%;
   height: 100%;;
 }
-
 .banner-text {
   overflow: hidden;
   border-radius: 20%;
   background-color: #27221f;
-  width: 80vw;
+  width: 50em;
   margin: auto;
   margin-top: 2em;
   border: 2px solid #059DC0;
+  color: white;
+  padding: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 
 }
 .banner-text hr {
@@ -90,27 +91,21 @@ ul, p{
   margin: auto;
   margin-bottom: 1em;
 }
-.banner-text {
-  color: white;
-  padding: 1em;
-  width: 40vw;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
 .social-links {
   display: flex;
   justify-content: space-between;
   width: 50%;
   margin: auto;
-  padding: 1em;
-
+  padding: 0.25em;
 }
-
 .footer {
   position: relative;
   bottom: 1em;
   width: 65vw;
-  height: 5%;            /* Footer height */
+  height: 2em;            /* Footer height */
   padding-top: 3vh;
 }
+
+/* .navbar-custom {
+  background-color: #27221f;
+} */

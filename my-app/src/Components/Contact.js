@@ -12,15 +12,12 @@ class Contact extends Component {
     return (
       <div className='homepage-full'  style={{color:'black'}}>
         <Container fluid>
-          <div style={{ textAlign: "center" }}>
-          <br />
+          <div>
             <h1 className='name-text' >Sklonnie Konstantin</h1>
             <img className='img-borders' style={{ height: "125pt" , margin:'1em'}}
               src="images/mainWhite.jpeg" alt="avatar" />
           </div>
-          <h3 style={{fontSize:'1.45em'}}>Contact info</h3>
-          <hr style={{ borderTop: "1px solid black", width: "20vw" }} />
-          
+          <h1 className='secondary-Headers'>Contact info</h1>          
           <div style={{padding:'1%'}}>
             <ul style={{ listStyleType: 'none'}}>
               <li>
@@ -35,7 +32,7 @@ class Contact extends Component {
             </ul>
             </div>
 
-            <hr style={{ borderTop: "1px solid black", width: "40vw" }} />
+            <hr style={{ borderTop: "1px solid black", width: "25vw" }} />
 
             <p style={{ padding:'1em' , fontSize:'0.85em'}}>
               I have been very passionate about computers and programming since

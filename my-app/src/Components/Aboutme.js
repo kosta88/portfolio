@@ -11,10 +11,8 @@ class Aboutme extends Component{
   render() {
      return (
     <div className='homepage-full'  > 
-
       <div className='' style={{ paddingTop: '1em' }}>
-        <h1 style={{fontSize:'2.15em'}}>About me</h1>
-        <hr style={{ borderTop: "2px solid black", width: "20vw" }} />
+        <h1 className='secondary-Headers'>About me</h1>
         <Container >
         <Row style={{paddingTop:'1em'}}> 
           <Col style={{paddingLeft:'1em'}}>

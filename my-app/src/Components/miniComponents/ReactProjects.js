@@ -17,6 +17,7 @@ class ReactProjects extends Component {
   render() {
     return (
       <div >
+        <h1 className='secondary-Headers'>React JS Projects</h1>
         <Container>
         <Row className="fix-in-center">
           {/*fullsatck app */}
@@ -31,7 +32,7 @@ class ReactProjects extends Component {
               <Card.Text>
                 <br />
               A React JS Portfolio web Application, using <b>React-bootstrap</b> and 
-               <b> JSX</b>  
+               <b> JSX</b>   <br/>
                       
               </Card.Text>
               <Button style={{ margin: "0 25px" }} variant="primary"
@@ -40,6 +41,7 @@ class ReactProjects extends Component {
           </Card>
         </Row>
         </Container>
+        <br/>
       </div>
     );
   }
