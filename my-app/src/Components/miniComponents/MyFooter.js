@@ -12,7 +12,7 @@ class MyFooter extends Component {
         return (
             <div style={{ display:'flex', justifyContent:'center' }} >
                 <footer className='footer'>
-                <hr style={{ borderTop: "1px light blue", width: "40vw" ,marginTop: "2.5em"}} />
+                <hr style={{ borderTop: "1px light blue", width: "40vw" ,paddingTop: "1.5em"}} />
                     <div className="social-links">
                         {/* LinkedIn */}
                         <a href="https://www.linkedin.com/in/kostas2019/"

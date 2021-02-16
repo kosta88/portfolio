@@ -7,7 +7,7 @@
     text-shadow: rgb(255, 255, 255) 2px 2px 2px;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    font-size: 2.55em;
+    font-size: 2.15em;
     /* letter-spacing: 0.03em; */
     word-spacing: 0.2em;
 }
@@ -75,7 +75,7 @@ ul, p{
   overflow: hidden;
   border-radius: 20%;
   background-color: #27221f;
-  width: 50em;
+  width: 50vw;
   margin: auto;
   margin-top: 2em;
   border: 2px solid #059DC0;
@@ -94,7 +94,7 @@ ul, p{
 .social-links {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 55%;
   margin: auto;
   padding: 0.25em;
 }
@@ -102,8 +102,7 @@ ul, p{
   position: relative;
   bottom: 1em;
   width: 65vw;
-  height: 2em;            /* Footer height */
-  padding-top: 3vh;
+  margin-top: 1em;
 }
 
 /* .navbar-custom {
