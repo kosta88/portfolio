@@ -1,18 +1,13 @@
-import React, { Component } from "react";
-
+import React from "react";
 import { Tabs, Tab} from 'react-bootstrap';
-
 import JavaProjects from './miniComponents/JavaProjects'
 import ReactProjects from './miniComponents/ReactProjects'
 // import CppProjects from './miniComponents/CppProjects'
 import FullstackProjects from './miniComponents/FullStackProjects'
-
 import MyFooter from './miniComponents/MyFooter'
 
 
-class Projects extends Component {
-
-  render() {
+export default function Projects () {
     return (
       <div className='homepage-full'>
           <Tabs className='Tabs' defaultActiveKey="JAVA" id="uncontrolled-tab" variant='dark' style={{ marginBottom: '0.5em', color:'white' }}>
@@ -29,12 +24,8 @@ class Projects extends Component {
             <Tab eventKey="Cpp" title="Cpp">
               <CppProjects />        
             </Tab> */}
-
           </Tabs>
-
           <MyFooter/>
       </div>
     );
-  }
 }
-export default Projects;

@@ -1,28 +1,23 @@
-import React, { Component } from "react";
+import React from "react";
 import {
   Container,
   Row,
   Col,
 } from 'react-bootstrap';
-
 import Education from "./miniComponents/Education";
 import Skills from "./miniComponents/Skills";
 // import Experience from "./Experience";
 
-class Resume extends Component {
-  render() {
+export default function Resume () {
     return (
       <div className='cv-full' style={{padding:'0.5em'}}>
-        {/* <h1 className='secondary-Headers'>Resume</h1>
-        <hr style={{ borderTop: "1px solid black", width: "10vw" }} /> */}
         <Container fluid>
           <Row>
             <Col style={{ paddingTop: "1em" }} >
                 <img
                   src="images/main.jpeg"
                   alt="avatar"
-                  style={{ height: "115pt" }}
-                />
+                  style={{ height: "115pt" }}  />
                 <h1 style={{ paddingTop: '1em', fontSize:'1.75em' }}>Sklonnie Konstantin</h1>
                 <hr style={{ borderTop: "1px solid #833fb2", width: "25vw" }} />
                 <p style={{ padding: '0.5em' }}>
@@ -30,8 +25,6 @@ class Resume extends Component {
                  <br /> use and great passion to learn and explore new technologies <br />
                 </p>
                 {/* Good team worker with great communication skills */}
-
-
                 {/* <h4 style={{ color: "grey" }}>Asp .Net Developer</h4> */}
 
                 <hr style={{ borderTop: "1px solid #833fb2", width: "25vw" }} />
@@ -67,14 +60,6 @@ class Resume extends Component {
                 schoolName={"Southwestern University of Finance and Economics, Sichuan China"}
                 degreeName={"Chinese Language Study"}
               />
-              {/* <Education
-                startYear={2002}
-                endYear={2006}
-                schoolName={"physics and electronics curriculum in Ktziney Yam Akko"}
-                degreeName={"High school diploma"}
-              /> */}
-
-
               <hr style={{ borderTop: "1px solid #e22947", width: "35vw" }} />
 
               {/* <h4>Experience</h4>
@@ -84,12 +69,9 @@ class Resume extends Component {
               jobName={"Trainer For Junior Solver"}
               jobDesc={"Teach C Programming Language 1st year students"}
             /> */}
-
               {/* <hr style={{ borderTop: "2px solid #e22947" }} /> */}
 
-
               <h1 style={{ margin: '0.95em' , fontSize:'1.55em'}}>Skills</h1>
-
               <Skills skill={"Java"} progress={85} />
               <Skills skill={"JavaScript"} progress={90} />
               <Skills skill={"C++"} progress={80} />
@@ -115,7 +97,5 @@ class Resume extends Component {
           </Container>
       </div>
     );
-  }
 }
 
-export default Resume;

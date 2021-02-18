@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faGithubAlt,
@@ -6,9 +6,7 @@ import {
     faFacebook,
 } from '@fortawesome/free-brands-svg-icons';
 
-
-class MyFooter extends Component {
-    render() {
+export default function MyFooter () {
         return (
             <div style={{ display:'flex', justifyContent:'center' }} >
                 <footer className='footer'>
@@ -40,7 +38,6 @@ class MyFooter extends Component {
                         </a>
                     </div>
 
-
                     {/* <div class="social">
                         <a href="#"><i class="icon ion-social-instagram"></i></a>
                         <a href="#"><i class="icon ion-social-snapchat"></i></a>
@@ -55,10 +52,10 @@ class MyFooter extends Component {
                         <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
                     </ul>
                     <p class="copyright">Company Name © 2018</p> */}
+
+                    {/* <p class="copyright">Company Name © 2021</p> */}
                 </footer>
             </div >
         );
-    }
 }
 
-export default MyFooter;

@@ -1,18 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import ReactPlayer from 'react-player'
 import { Card, Button, Row, Container } from 'react-bootstrap';
 
-class FullstackProjects extends Component {
-    constructor(props) {
-        super(props);
-
-        this.appLink = () => {
-            window.location.assign(
-                "https://sleepy-retreat-99562.herokuapp.com/"
-            );
-        };
-    }
-    render() {
+export default function FullstackProjects () {
         return (
             <div >
                 <h1 className='secondary-Headers'>FullStack Projects</h1>
@@ -32,17 +22,14 @@ class FullstackProjects extends Component {
                                mongoDB, mongoose
                                 </Card.Text>
                                 <Button style={{ margin: "0.25em" }} variant="primary"
-                                        onClick={this.appLink.bind(this)} >Visit</Button>
-
-                                {/* <Button style={{ margin: "0 25px" }} raised variant="primary"
-                                onClick={this.appVideo.bind(this)} >Demo Video</Button> */}
+                                        onClick={ () => {window.location.assign(
+                                            "https://sleepy-retreat-99562.herokuapp.com/"
+                                        );} } >Visit</Button>
                             </Card.Body>
                         </Card>
                     </Row>
                 </Container>
             </div>
         );
-    }
 }
 
-export default FullstackProjects;

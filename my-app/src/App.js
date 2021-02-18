@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import './Animation.css'
+// import './Animation.css'
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Main from "./Components/Main";
@@ -9,29 +9,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      animate: true,
-    }
-    // this.clickStateHandler = this.clickStateHandler.bind(this)
-  }
-
-  // clickStateHandler() {
-  //   this.setState({ animate: false });
-  // }
-  // componentDidMount(){
-  //   if(window.sessionStorage.getItem('firstLoadDone') === null ){
-  //     this.setState({ animate: true })
-  //     window.sessionStorage.setItem('firstLoadDone', true )
-  //   }else{
-  //     this.setState({ animate: false });
-  //   }
-  // }
-  // componentWillUnmount(){
-  //   sessionStorage.removeItem('firstLoadDone' )
-  // }
-
   render() {
     // if(this.state.animate == true){
     //   return(

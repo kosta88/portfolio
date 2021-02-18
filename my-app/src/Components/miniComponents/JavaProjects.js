@@ -1,23 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import ReactPlayer from 'react-player'
 import { Card, Button, Row, Container } from 'react-bootstrap';
 
-class JavaProjects extends Component {
-  constructor(props) {
-    super(props);
-    this.elevatorSim = () => {
-      window.location.assign(
-        "https://github.com/kosta88/ElevatorSimulation"
-      );
-    };
-    this.androidGame = () => {
-      window.location.assign(
-        "https://play.google.com/store/apps/details?id=spacesheep.example.androidfinalapp"
-      );
-    };
-  }
-
-  render() {
+export default function JavaProjects () {
     return (
       <div >
         <h1 className='secondary-Headers'>JAVA Projects</h1>
@@ -36,7 +21,9 @@ class JavaProjects extends Component {
                   scheduling algorithms which are compared by the waiting and execution time of simulated passengers
                 </Card.Text>
                 <Button style={{ margin: "0.25em" }} variant="primary"
-                  onClick={this.elevatorSim.bind(this)} >Github</Button>
+                  onClick={() => {window.location.assign(
+                    "https://github.com/kosta88/ElevatorSimulation"
+                  );}} >Github</Button>
               </Card.Body>
             </Card>
 
@@ -54,14 +41,14 @@ class JavaProjects extends Component {
                   <br />          
                 </Card.Text>
                 <Button style={{ margin: "0.25em" }} variant="primary"
-                  onClick={this.androidGame.bind(this)} >Google Play</Button>
+                  onClick={() => { window.location.assign(
+                    "https://play.google.com/store/apps/details?id=spacesheep.example.androidfinalapp"
+                  );}} >Google Play</Button>
               </Card.Body>
             </Card>
           </Row>
         </Container>
       </div>
     );
-  }
 }
 
-export default JavaProjects;

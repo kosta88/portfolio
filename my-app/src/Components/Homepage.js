@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithubAlt,
@@ -7,8 +7,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { Container } from "react-bootstrap";
 
-class Homepage extends Component {
-  render() {
+export default function Homepage () {
     return (
       <div className='homepage-full' >
 
@@ -56,7 +55,5 @@ class Homepage extends Component {
           </Container>
       </div>
     );
-  }
 }
 
-export default Homepage;
