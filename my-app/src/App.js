@@ -14,43 +14,40 @@ class App extends Component {
     this.state = {
       animate: true,
     }
-    this.clickStateHandler = this.clickStateHandler.bind(this)
+    // this.clickStateHandler = this.clickStateHandler.bind(this)
   }
 
-  clickStateHandler() {
-    this.setState({ animate: false });
-  }
-
-  componentDidMount(){
-    if(window.sessionStorage.getItem('firstLoadDone') === null ){
-      this.setState({ animate: true })
-      window.sessionStorage.setItem('firstLoadDone', true )
-    }else{
-      this.setState({ animate: false });
-    }
-  }
-
-  componentWillUnmount(){
-    sessionStorage.removeItem('firstLoadDone' )
-  }
+  // clickStateHandler() {
+  //   this.setState({ animate: false });
+  // }
+  // componentDidMount(){
+  //   if(window.sessionStorage.getItem('firstLoadDone') === null ){
+  //     this.setState({ animate: true })
+  //     window.sessionStorage.setItem('firstLoadDone', true )
+  //   }else{
+  //     this.setState({ animate: false });
+  //   }
+  // }
+  // componentWillUnmount(){
+  //   sessionStorage.removeItem('firstLoadDone' )
+  // }
 
   render() {
-    if(this.state.animate == true){
-      return(
-        <div className='fix-in-center cv-full'>
-          <div className=' fade-in'>
-            <h1 className='entryHeader' style={{padding:'1.5em', fontSize:'3em'}}>  Hi, My name is Kosta </h1>
-            <h1 className='entryHeader'>  This is my Portfoliio </h1>
-            <h1 className='click-toView' onClick={() => {this.clickStateHandler()}}>  click to Enter </h1>
+    // if(this.state.animate == true){
+    //   return(
+    //     <div className='cv-full' onClick={() => {this.clickStateHandler()}}>
+    //       <div className=' fade-in'>
+    //         <h1 className='entryHeader' style={{padding:'2.5em', fontSize:'3.5em'}}> WELCOME </h1>
+    //         {/* <h1 className='entryHeader'>  This is my Portfoliio </h1> */}
+    //         <h1 className='click-toView'>  click to Enter </h1>
 
-            </div>
-        </div>
-      );
-    }
-    else{
+    //         </div>
+    //     </div>
+    //   );
+    // }
     return (
       <div>
-        <Navbar collapseOnSelect sticky="top" expand="lg" bg="dark" variant="dark" style={{ color: '#fff' }}>
+        <Navbar className='navbar-custom' collapseOnSelect sticky="top" variant='dark' expand="lg" >
           <Navbar.Brand href="/">
             <FontAwesomeIcon icon={faHome} /></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -77,7 +74,6 @@ class App extends Component {
         </div>
       </div>
     );
-    }
   }
 }
 

@@ -1,28 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Carter+One');
 .name-text{
+  text-transform: uppercase;
   font-family: "Carter One", cursive;
-    text-transform: uppercase;
-    text-align: center;
-    color: #000000;
-    text-shadow: rgb(255, 255, 255) 2px 2px 2px;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    font-size: 2.15em;
-    /* letter-spacing: 0.03em; */
-    word-spacing: 0.2em;
+  font-size: 2.25em;
+  padding: 0.25em;
+}
+.navbar-custom {
+  background-color: #27221f;
+  color: whitesmoke;
 }
 .secondary-Headers{
   font-family: "Carter One", cursive;
   text-decoration: underline 0.1px black ;
-  font-size: 2.15em;
+  font-size: 1.5em;
   padding-top: 0.2em;
 }
-
 p ,h1 ,h2 ,h4 ,h3 ,h5 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:'Times New Roman';
 } 
 ul, p{
-  font-size:  0.95em;
+  font-size:  0.85em;
 }
 .fix-in-center {
   display: flex;
@@ -34,11 +31,12 @@ ul, p{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #04D4F0;
+  background-color: #326872;
+  height: 2.25em;
 }
 .homepage-full {
-  background-image: linear-gradient(to left top, #ffffff, #f3f9ff, #dbf6ff, 
-  #baf5ff, #98f4ff, #97f5fc, #97f5f9, #97f6f5, #b3f9f8, #cbfbfb, #e3fdfd, #f9ffff);
+  background-image: linear-gradient(to left top, #c2c0ba, #c3c4b4, #bdc9b2, #b3cfb4,
+   #a3d5bb, #90cfbc, #7ec8bd, #6cc1c0, #5cadb4, #4f98a7, #458598, #3d7188);
   text-align: center;
   width: inherit;
   min-height: 100vh;
@@ -55,7 +53,7 @@ ul, p{
   color: #fff;
 }
 .img-borders{
-  border: 1px solid #059DC0;
+  border: 1px solid #27221f;
 }
 .profile-img-border {
   position: relative;
@@ -63,7 +61,7 @@ ul, p{
   height: 125pt;
   overflow: hidden;
   border-radius: 50%;
-  border: 1.5px solid #059DC0;
+  border: 1px solid #27221f;
   margin-left: auto;
   margin-right: auto;
 }
@@ -75,10 +73,10 @@ ul, p{
   overflow: hidden;
   border-radius: 20%;
   background-color: #27221f;
-  width: 50vw;
+  width: fit-content;
   margin: auto;
   margin-top: 2em;
-  border: 2px solid #059DC0;
+  border: 1px solid #4c1211;
   color: white;
   padding: 1em;
   padding-left: 1em;
@@ -105,6 +103,7 @@ ul, p{
   margin-top: 1em;
 }
 
-/* .navbar-custom {
-  background-color: #27221f;
-} */
+.card-body {
+  background-color: #3cbead;
+  height: 12em;
+}

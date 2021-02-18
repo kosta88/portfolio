@@ -15,14 +15,14 @@ class Homepage extends Component {
         <h1 className='name-text'>Sklonnie Konstantin</h1>
         <div className="profile-img-border">
           <img
-            className="profile-img"
+            // className="profile-img"
             src="images/main.jpeg"
           // alt="******"
           />
         </div>
         <Container fluid>
           <div className="banner-text" >
-            <h1 style={{ padding: '0.25em', fontSize: '1.85em' }}>Computer Science Graduate</h1>
+            <h1 style={{ padding: '0.25em', fontSize: '1.75em' }}>Computer Science Graduate</h1>
             <hr />
             <p>
               JAVA | JavaScript | C++ | Node JS | Express JS | React JS | Postman | MongoDB

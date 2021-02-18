@@ -19,21 +19,21 @@ class FullstackProjects extends Component {
                 <Container>
                     <Row className="fix-in-center">
                         {/*fullsatck app */}
-                        <Card style={{ width: '20rem', margin: '3%' }}>
-                            <Card.Header style={{background: '#303030',color:'#E9E9E9', fontWeight: 'bolder', fontSize:'1.15em' }}>Social Trivia Application</Card.Header>
+                        <Card style={{ width: '18rem', margin: '1em' }}>
+                            <Card.Header style={{ background: '#27221f', color: '#E9E9E9', fontWeight: 'bolder', fontSize: '1.15em' }}>Social Trivia Application</Card.Header>
                             <ReactPlayer width={'fill'}
-                                height={220}
+                                height={200}
                                 url='http://youtu.be/xKjRKND1ABg' />
-                            <Card.Body style={{ background: '#04ECF0' }}>
+                            <Card.Body className='card-body'>
                                 {/* <Card.Title>Elevator Simulation</Card.Title> */}
-                                <Card.Text>Frontend - <b>React JS</b>, <b>axios</b> and <b>React-bootstrap</b>
-                            <br /><br />
+                                <Card.Text style={{ height:'6rem' }} >Frontend - <b>React JS</b>, <b>axios</b> and <b>React-bootstrap</b>
+                                    <br /><br />
                             Backend - <b>Rest API</b>, <b>Node.js</b>, <b>Express.js</b>, npm,
                                mongoDB, mongoose
-                                          
                                 </Card.Text>
-                                <Button style={{ margin: "0 25px" }} variant="primary"
-                                    onClick={this.appLink.bind(this)} >Visit</Button>
+                                <Button style={{ margin: "0.25em" }} variant="primary"
+                                        onClick={this.appLink.bind(this)} >Visit</Button>
+
                                 {/* <Button style={{ margin: "0 25px" }} raised variant="primary"
                                 onClick={this.appVideo.bind(this)} >Demo Video</Button> */}
                             </Card.Body>

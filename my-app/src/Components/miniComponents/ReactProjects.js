@@ -21,21 +21,22 @@ class ReactProjects extends Component {
         <Container>
         <Row className="fix-in-center">
           {/*fullsatck app */}
-          <Card style={{ width: '20rem', margin: '3%'}}>
-            <Card.Header style={{background: '#303030',color:'#E9E9E9',fontWeight:'bolder', fontSize:'1.15em'}}>Portfolio Application</Card.Header>
+          <Card style={{ width: '18rem', margin: '1em'}}>
+            <Card.Header style={{background: '#27221f',color:'#E9E9E9',fontWeight:'bolder', fontSize:'1.15em'}}>Portfolio Application</Card.Header>
             {/* <Card.Img variant="top" src="" /> */}
             <ReactPlayer width={'fill'}
-                height={220}
+                height={200}
                url='http://youtu.be/xKjRKND1ABg' />
-            <Card.Body style={{ background: '#04ECF0'}}>
+            <Card.Body className='card-body'>
               {/* <Card.Title>Elevator Simulation</Card.Title> */}
-              <Card.Text>
+              <Card.Text  style={{ height:'6rem' }}> 
                 <br />
               A React JS Portfolio web Application, using <b>React-bootstrap</b> and 
-               <b> JSX</b>   <br/>
+               <b> JSX</b>   
+               <br/>
                       
               </Card.Text>
-              <Button style={{ margin: "0 25px" }} variant="primary"
+              <Button style={{ margin: "0.25em" }} variant="primary"
                 onClick={this.githubLink.bind(this)} >Github</Button>
             </Card.Body>
           </Card>

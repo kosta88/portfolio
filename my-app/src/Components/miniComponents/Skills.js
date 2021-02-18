@@ -18,7 +18,7 @@ class Skills extends Component {
                     </Col>
                     <Col xs={7}>
                         <ProgressBar animated='true' variant="success" now={this.props.progress}
-                            style={{ width: '22vw' }} />
+                            style={{ width: '24vw' }} />
                     </Col>
                 </Row>
                 </Container>
