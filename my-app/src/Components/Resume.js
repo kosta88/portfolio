@@ -22,7 +22,7 @@ export default function Resume () {
                 <hr style={{ borderTop: "1px solid #833fb2", width: "25vw" }} />
                 <p style={{ padding: '0.5em' }}>
                   A computer science graduate with high motivation to put my current knowledge into
-                 <br /> use and great passion to learn and explore new technologies <br />
+                  use and great passion to learn and explore new technologies
                 </p>
                 {/* Good team worker with great communication skills */}
                 {/* <h4 style={{ color: "grey" }}>Asp .Net Developer</h4> */}

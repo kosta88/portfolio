@@ -16,14 +16,14 @@ export default function FullstackProjects () {
                                 url='http://youtu.be/xKjRKND1ABg' />
                             <Card.Body className='card-body'>
                                 {/* <Card.Title>Elevator Simulation</Card.Title> */}
-                                <Card.Text style={{ height:'6rem' }} >Frontend - <b>React JS</b>, <b>axios</b> and <b>React-bootstrap</b>
-                                    <br /><br />
-                            Backend - <b>Rest API</b>, <b>Node.js</b>, <b>Express.js</b>, npm,
-                               mongoDB, mongoose
+                                <Card.Text style={{ height:'6rem' }} >Frontend - <b>React JS, axios and React-bootstrap</b>
+                                    <br />
+                            Backend - <b>Rest API, Postman, Node.JS, Express.JS,
+                               mongoDB, mongoose</b>
                                 </Card.Text>
                                 <Button style={{ margin: "0.25em" }} variant="primary"
                                         onClick={ () => {window.location.assign(
-                                            "https://sleepy-retreat-99562.herokuapp.com/"
+                                            "https://webtrivia.herokuapp.com/"
                                         );} } >Visit</Button>
                             </Card.Body>
                         </Card>
