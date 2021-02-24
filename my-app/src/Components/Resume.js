@@ -6,7 +6,6 @@ import {
 } from 'react-bootstrap';
 import Education from "./miniComponents/Education";
 import Skills from "./miniComponents/Skills";
-// import Experience from "./Experience";
 
 export default function Resume () {
     return (
@@ -25,7 +24,6 @@ export default function Resume () {
                   use and great passion to learn and explore new technologies
                 </p>
                 {/* Good team worker with great communication skills */}
-                {/* <h4 style={{ color: "grey" }}>Asp .Net Developer</h4> */}
 
                 <hr style={{ borderTop: "1px solid #833fb2", width: "25vw" }} />
                 <h5 style={{fontSize:'1.35em' }}>Address</h5>
@@ -40,8 +38,7 @@ export default function Resume () {
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
                   href="https://drive.google.com/file/d/1sVCeklaCglCU3E3E38WrcBdOG42gMM7M/view?usp=sharing"
-                > click to View
-            </a>
+                > click to View </a>
             </Col>
 
             <Col >
@@ -51,39 +48,27 @@ export default function Resume () {
                 startYear={2016}
                 endYear={2020}
                 schoolName={"Tel-Hai academic college"}
-                degreeName={"Computer science B.sc"}
-              />
+                degreeName={"Computer science B.sc"}  />
               <br/>
               <Education
                 startYear={2014}
                 endYear={2016}
                 schoolName={"Southwestern University of Finance and Economics, Sichuan China"}
-                degreeName={"Chinese Language Study"}
-              />
+                degreeName={"Chinese Language Study"}  />
+
               <hr style={{ borderTop: "1px solid #e22947", width: "35vw" }} />
-
-              {/* <h4>Experience</h4>
-            <Experience
-              startYear={"Spring 2019"}
-              endYear={"Fall 2019"}
-              jobName={"Trainer For Junior Solver"}
-              jobDesc={"Teach C Programming Language 1st year students"}
-            /> */}
-              {/* <hr style={{ borderTop: "2px solid #e22947" }} /> */}
-
               <h1 style={{ margin: '0.95em' , fontSize:'1.55em'}}>Skills</h1>
-              <Skills skill={"Java"} progress={85} />
-              <Skills skill={"JavaScript"} progress={90} />
-              <Skills skill={"C++"} progress={80} />
+              <Skills skill={"Java"} progress={92} />
+              <Skills skill={"JavaScript"} progress={88} />
+              <Skills skill={"C++"} progress={83} />
               {/* <Skills skill={"C"} progress={70} /> */}
-              <Skills skill={"React js"} progress={60} />
-              <Skills skill={"Node js"} progress={65} />
-              <Skills skill={"Express js"} progress={70} />
-              <Skills skill={"MongoDB"} progress={55} />
-              
+              <Skills skill={"React js"} progress={74} />
+              <Skills skill={"Node js"} progress={70} />
+              <Skills skill={"Express js"} progress={75} />
+              <Skills skill={"MongoDB"} progress={64} />
               <hr style={{ borderTop: "1px solid #e22947", width: "35vw" }} />
-
               <div >
+
                 <h1 style={{ margin: '0.5em' , fontSize:'1.55em'}}>Languages</h1>
                 <ul style={{ listStyleType: 'none', marginRight: '1.95em' }}>
                   <li>English</li>

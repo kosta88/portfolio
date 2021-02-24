@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import "./App.css";
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Main from "./Components/Main";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
+
+import "./App.css";
+import Main from "./Components/Main";
 
 class App extends Component {
   render() {
@@ -16,8 +17,8 @@ class App extends Component {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-              <Nav.Link href="/Resume">Resume</Nav.Link>
               <Nav.Link href="/Aboutme">About Me</Nav.Link>
+              <Nav.Link href="/Resume">Resume</Nav.Link>
               <Nav.Link href="/Projects">Projects</Nav.Link>
               <Nav.Link href="/Contact">Contact</Nav.Link>
             </Nav>
@@ -30,5 +31,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;

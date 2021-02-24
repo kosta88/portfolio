@@ -4,7 +4,6 @@ import {
     Col,
 } from 'react-bootstrap';
 
-
 class Education extends Component {
     render() {
         return (
@@ -15,7 +14,6 @@ class Education extends Component {
                     </Col>
                     <Col  xs={7}>
                         <h5 style={{ marginTop: '0px' }}>{this.props.degreeName}</h5>
-                        
                         <p>{this.props.schoolName}</p>
                     </Col>
                 </Row>
@@ -23,5 +21,4 @@ class Education extends Component {
         );
     }
 }
-
 export default Education;

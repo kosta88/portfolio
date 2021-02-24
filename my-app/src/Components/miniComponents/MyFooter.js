@@ -17,43 +17,22 @@ export default function MyFooter () {
                             rel="noopener noreferrer"
                             target="_blank"  >
                             <FontAwesomeIcon size='2x' icon={faLinkedin}>
-                            </FontAwesomeIcon >
-                        </a>
-
+                            </FontAwesomeIcon >   </a>
                         {/* github */}
                         <a href="https://github.com/kosta88"
                             rel="noopener noreferrer"
                             target="_blank"  >
                             <FontAwesomeIcon size='2x' icon={faGithubAlt}>
-                            </FontAwesomeIcon >
-                        </a>
-
+                            </FontAwesomeIcon >    </a>
                         {/*facebook */}
                         <a
                             href="https://www.facebook.com/kostiask"
                             rel="noopener noreferrer"
                             target="_blank"  >
                             <FontAwesomeIcon size='2x' icon={faFacebook}>
-                            </FontAwesomeIcon >
-                        </a>
+                            </FontAwesomeIcon >    </a>
                     </div>
-
-                    {/* <div class="social">
-                        <a href="#"><i class="icon ion-social-instagram"></i></a>
-                        <a href="#"><i class="icon ion-social-snapchat"></i></a>
-                        <a href="#"><i class="icon ion-social-twitter"></i></a>
-                        <a href="#"><i class="icon ion-social-facebook"></i></a>
-                    </div>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><a href="#">Home</a></li>
-                        <li class="list-inline-item"><a href="#">Services</a></li>
-                        <li class="list-inline-item"><a href="#">About</a></li>
-                        <li class="list-inline-item"><a href="#">Terms</a></li>
-                        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-                    </ul>
-                    <p class="copyright">Company Name © 2018</p> */}
-
-                    {/* <p class="copyright">Company Name © 2021</p> */}
+                    {/* <p class="copyright">Company Name © 2018</p> */}
                 </footer>
             </div >
         );

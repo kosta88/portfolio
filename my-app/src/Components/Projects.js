@@ -1,11 +1,10 @@
 import React from "react";
 import { Tabs, Tab} from 'react-bootstrap';
+
 import JavaProjects from './miniComponents/JavaProjects'
 import ReactProjects from './miniComponents/ReactProjects'
-// import CppProjects from './miniComponents/CppProjects'
 import FullstackProjects from './miniComponents/FullStackProjects'
 import MyFooter from './miniComponents/MyFooter'
-
 
 export default function Projects () {
     return (
@@ -20,10 +19,6 @@ export default function Projects () {
             <Tab eventKey="FullStack" title="FullStack">
               <FullstackProjects />
             </Tab>
-{/* 
-            <Tab eventKey="Cpp" title="Cpp">
-              <CppProjects />        
-            </Tab> */}
           </Tabs>
           <MyFooter/>
       </div>

@@ -18,5 +18,4 @@ const Main = () => {
     </Switch>
   );
 };
-
 export default Main;

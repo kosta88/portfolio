@@ -1,8 +1,6 @@
 /* html{
   font-size: medium
 } */
-
-
 @import url('https://fonts.googleapis.com/css?family=Carter+One');
 .name-text{
   text-transform: uppercase;
@@ -47,6 +45,16 @@ ul, p{
   min-height: 100vh;
   height: max-content;
 }
+
+.aboutme-full {
+  background-image: linear-gradient(to left , #c2c0ba, #c3c4b4, #bdc9b2, #b3cfb4,
+   #a3d5bb, #90cfbc, #7ec8bd, #6cc1c0, #5cadb4, #4f98a7, #458598, #3d7188);
+  /* text-align: center; */
+  width: inherit;
+  min-height: 100vh;
+  height: max-content;
+}
+
 .cv-full {
   /* background: #27221f  ; */
   background-image: linear-gradient(to left top, #1e1e1e, #272727, #303030,
