@@ -9,7 +9,7 @@ import MyFooter from './miniComponents/MyFooter'
 export default function Aboutme() {
   return (
     <div className='aboutme-full'  >
-      <Container style={{ width: '75%', textAlign: 'center' }}>
+      <Container style={{ textAlign: 'center' }}>
         <h1 className='secondary-Headers' style={{ paddingTop: '0.75em' }}>About me</h1>
         <Row style={{ paddingTop: '1em' }}>
           <Col >
@@ -69,8 +69,6 @@ export default function Aboutme() {
           </Col>
         </Row>
 
-
-        {/* tooooooooooooooo doooooooooooooooooooooooooooooooo */}
         <Row style={{ paddingTop: '2em' }}>
           <Col>
             <p > Upone my return to Israel<br /> i
@@ -78,7 +76,6 @@ export default function Aboutme() {
             <img style={{ height: "225pt" }}
               src="images/college.png" alt="avatar" /> </Col>
         </Row>
-
         <Row style={{ paddingTop: '3em' }}>
           <Col>
             <p style={{ paddingTop: '0.55em' }}>Since my graduation i took a few udemy
@@ -97,25 +94,22 @@ export default function Aboutme() {
         </Row>
         <hr style={{ borderTop: "0.5px solid black", width: "25vw", marginTop: '3.5em', opacity: '35%' }} />
       </Container>
+      <Container>
+        <div style={{ marginTop: '0.25em', paddingLeft: '2.5em' }}>
+          <h1 style={{ fontSize: '1.25em' }}>My hobbies:</h1>
+          <div style={{ paddingTop: '0.25em', paddingLeft: '2.5em' }}>
+            <p>I love Reading, Learning new things, Coding and Football</p>
 
-      <div style={{ marginTop: '0.25em', paddingLeft: '2.5em' }}>
-        <h1 style={{ fontSize: '1.25em' }}>My hobbies:</h1>
-        {/* <p>Games i play: clash royale...... </p> */}
-        <div style={{ paddingTop: '0.25em', paddingLeft: '2.5em' }}>
-          <p>I love Reading, Learning new things, Coding and Football</p>
-          <p>my favorite Israeli Football Team: <b>Hapoel Ironi Kiryat Shmona F.C</b>  
-          <img style={{ height: "30pt" , marginLeft:'0.5em'}}
-              src="images/shemona.png" alt="avatar" /> </p>
-          
-          <p>my favorite International Football Team: <b>Manchester United F.C</b> 
-          <img style={{ height: "30pt" , marginLeft:'0.5em'}}
-              src="images/manUTD.png" alt="avatar" /> </p>
+            <p>my favorite Israeli Football Team: <b>Hapoel Ironi Kiryat Shmona F.C</b>
+              <img style={{ height: "30pt", marginLeft: '0.5em' }}
+                src="images/shemona.png" alt="avatar" /> </p>
+
+            <p>my favorite International Football Team: <b>Manchester United F.C</b>
+              <img style={{ height: "30pt", marginLeft: '0.5em' }}
+                src="images/manUTD.png" alt="avatar" /> </p>
+          </div>
         </div>
-      </div>
-
-
-
-
+      </Container>
       <div style={{ paddingTop: '2em' }}>
         <MyFooter />
       </div>
