@@ -37,7 +37,7 @@ export default function JavaProjects () {
               <Card.Body className='card-body'>
                 <Card.Text style={{ height:'6rem' }}>
                   <br />  An android game application written in AndroidStudio 
-                  using <b>Java</b> and <b>FireBase</b>  <br />          
+                  using <b>Java, XML</b> and <b>FireBase</b>  <br />          
                 </Card.Text>
                 <Button style={{ margin: "0.25em" }} variant="primary"
                   onClick={() => { window.location.assign(

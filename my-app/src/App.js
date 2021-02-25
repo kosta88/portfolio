@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar className='navbar-custom' collapseOnSelect sticky="top" variant='dark' expand="lg" >
+        <Navbar className='navbar-custom' collapseOnSelect sticky="top" variant='dark' expand >
           <Navbar.Brand href="/">
             <FontAwesomeIcon icon={faHome} /></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

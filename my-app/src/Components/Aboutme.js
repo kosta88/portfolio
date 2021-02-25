@@ -11,9 +11,11 @@ export default function Aboutme() {
     <div className='aboutme-full'  >
       <Container style={{ textAlign: 'center' }}>
         <h1 className='secondary-Headers' style={{ paddingTop: '0.75em' }}>About me</h1>
+        <p>Hi, my name is Kosta</p>
         <Row style={{ paddingTop: '1em' }}>
           <Col >
-            <p style={{ paddingTop: '1em' }} >I have been very passionate about<br />
+            <p style={{ paddingTop: '1em' }} >
+              I have been very passionate about<br />
                computers and programming since young age
               </p><p style={{ paddingTop: '0.5em' }} >In highschool i chose to study
                 <br /> in the main course of <br />electronics and physics </p>
@@ -40,15 +42,14 @@ export default function Aboutme() {
               src="images/startshvil.jpg" alt="avatar" />
           </Col>
         </Row>
-
-        <Row style={{ paddingTop: '2.5em' }}>
+        <Row style={{ paddingTop: '2.5em' }}><Col> <p style={{ paddingTop: '1em' }} >for two years I lived and worked<br /> in a kibbuz Yahel
+            <br />(a kibbuz in the south of Israel)</p></Col></Row>
+        <Row >
+        
           <Col>
             <img style={{ height: "255pt" }}
               src="images/mix.png" alt="avatar" /> </Col>
           <Col >
-            <p style={{ paddingTop: '1em' }} >for two years I lived and worked<br /> in a kibbuz Yahel
-            <br />(a kibbuz in the south of Israel)</p>
-
             <p style={{ paddingTop: '4.5em' }}>
               and after some saving I did a eurotrip <br />mostly using Couchsurfing.com visiting in:
              England, Belgium, France, Poland, Czech Republic, Germany, Italy, Denmark,  Croatia, Austira,
@@ -60,7 +61,7 @@ export default function Aboutme() {
         <Row style={{ paddingTop: '2.5em' }}>
           <Col>
             <img className='img-borders' style={{ height: "85pt" }}
-              src="images/china.jpg" alt="avatar" /> </Col>
+              src="images/china.png" alt="avatar" /> </Col>
           <Col >
             <p > In 2012 i went to china and stayed<br />
             to study chinese and<br /> to teach some English until 2016 </p>
@@ -94,10 +95,9 @@ export default function Aboutme() {
         </Row>
         <hr style={{ borderTop: "0.5px solid black", width: "25vw", marginTop: '3.5em', opacity: '35%' }} />
       </Container>
-      <Container>
         <div style={{ marginTop: '0.25em', paddingLeft: '2.5em' }}>
-          <h1 style={{ fontSize: '1.25em' }}>My hobbies:</h1>
-          <div style={{ paddingTop: '0.25em', paddingLeft: '2.5em' }}>
+          <h1 style={{ fontSize: '1.1em' }}>My hobbies:</h1>
+          <div style={{ paddingTop: '0.25em', paddingLeft: '0.5em' ,fontSize:'0.95em'}}>
             <p>I love Reading, Learning new things, Coding and Football</p>
 
             <p>my favorite Israeli Football Team: <b>Hapoel Ironi Kiryat Shmona F.C</b>
@@ -109,7 +109,6 @@ export default function Aboutme() {
                 src="images/manUTD.png" alt="avatar" /> </p>
           </div>
         </div>
-      </Container>
       <div style={{ paddingTop: '2em' }}>
         <MyFooter />
       </div>

@@ -17,8 +17,7 @@ export default function ReactProjects () {
             <Card.Body className='card-body'>
               <Card.Text  style={{ height:'6rem' }}> 
                 <br />
-              A <b>React JS </b> Portfolio web Application, using <b>Node.JS, npm, React-bootstrap </b> and 
-               <b> JSX</b> 
+              A <b>React JS </b> Portfolio web Application, using <b>Node.JS, npm, CSS, </b>  and <b>React-bootstrap </b>
               </Card.Text>
               <Button style={{ margin: "0.25em" }} variant="primary"
                 onClick={ () => {window.location.assign(
