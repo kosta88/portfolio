@@ -2,6 +2,38 @@
   font-size: medium
 } */
 @import url('https://fonts.googleapis.com/css?family=Carter+One');
+
+
+.homepage-full {
+  background-image: linear-gradient(to left top, #c2c0ba, #c3c4b4, #bdc9b2, #b3cfb4,
+   #a3d5bb, #90cfbc, #7ec8bd, #6cc1c0, #5cadb4, #4f98a7, #458598, #3d7188);
+  text-align: center;
+  width: inherit;
+  min-height: 100vh;
+  height: max-content;
+}
+.aboutme-full {
+  background-image: linear-gradient(to left , #c2c0ba, #c3c4b4, #bdc9b2, #b3cfb4,
+   #a3d5bb, #90cfbc, #7ec8bd, #6cc1c0, #5cadb4, #4f98a7, #458598, #3d7188);
+  /* text-align: center; */
+  width: inherit;
+  min-height: 100vh;
+  height: max-content;
+}
+.cv-full {
+  /* background: #27221f  ; */
+  background-image: linear-gradient(to left top, #1e1e1e, #272727, #303030,
+   #3a3a3a, #444444, #434343, #434343, #424242, #383838, #2d2d2d, #232323, #1a1a1a);
+  text-align: center;
+  width: inherit;
+  min-height: 100vh;
+  height: max-content;
+  color: #fff;
+}
+.img-borders{
+  border: 1px solid #27221f;
+}
+
 .name-text{
   text-transform: uppercase;
   font-family: "Carter One", cursive;
@@ -30,59 +62,6 @@ ul, p{
   justify-content: center;
   align-items: center;
 }
-.Tabs {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  background-color: #326872;
-  height: 2.25em;
-}
-.homepage-full {
-  background-image: linear-gradient(to left top, #c2c0ba, #c3c4b4, #bdc9b2, #b3cfb4,
-   #a3d5bb, #90cfbc, #7ec8bd, #6cc1c0, #5cadb4, #4f98a7, #458598, #3d7188);
-  text-align: center;
-  width: inherit;
-  min-height: 100vh;
-  height: max-content;
-}
-
-.aboutme-full {
-  background-image: linear-gradient(to left , #c2c0ba, #c3c4b4, #bdc9b2, #b3cfb4,
-   #a3d5bb, #90cfbc, #7ec8bd, #6cc1c0, #5cadb4, #4f98a7, #458598, #3d7188);
-  /* text-align: center; */
-  width: inherit;
-  min-height: 100vh;
-  height: max-content;
-}
-
-.cv-full {
-  /* background: #27221f  ; */
-  background-image: linear-gradient(to left top, #1e1e1e, #272727, #303030,
-   #3a3a3a, #444444, #434343, #434343, #424242, #383838, #2d2d2d, #232323, #1a1a1a);
-  text-align: center;
-  width: inherit;
-  min-height: 100vh;
-  height: max-content;
-  color: #fff;
-}
-.img-borders{
-  border: 1px solid #27221f;
-}
-.profile-img-border {
-  position: relative;
-  width: 125pt;
-  height: 125pt;
-  overflow: hidden;
-  border-radius: 50%;
-  border: 1px solid #27221f;
-  margin-left: auto;
-  margin-right: auto;
-}
-.profile-img-border img {
-  width: 100%;
-  height: 100%;;
-}
 .banner-text {
   overflow: hidden;
   border-radius: 20%;
@@ -95,13 +74,17 @@ ul, p{
   padding: 1em;
   padding-left: 1em;
   padding-right: 1em;
-
 }
 .banner-text hr {
   border-top: 5px dotted white;
   width: 50%;
   margin: auto;
   margin-bottom: 1em;
+}
+.banner-text h1{
+  padding: 0.25em;
+  font-size: 1.75em;
+  font-family: "Carter One";
 }
 .social-links {
   display: flex;
@@ -115,9 +98,4 @@ ul, p{
   bottom: 1em;
   width: 65vw;
   margin-top: 1em;
-}
-
-.card-body {
-  background-color: #3cbead;
-  height: 12em;
 }

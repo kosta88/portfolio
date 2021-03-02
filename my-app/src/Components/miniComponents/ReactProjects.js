@@ -10,12 +10,11 @@ export default function ReactProjects () {
         <Container>
         <Row className="fix-in-center">
           {/*fullsatck app */}
-          <Card style={{ width: '18rem', margin: '1em'}}>
-            <Card.Header style={{background: '#27221f',color:'#E9E9E9',
-            fontWeight:'bolder', fontSize:'1.15em'}}>Portfolio WebApplication</Card.Header>
+          <Card  className='Card'>
+            <Card.Header className='Card-Header'>Portfolio WebApplication</Card.Header>
             <Card.Img variant="top" src="images/reactProjectIMG.jpg" />
             <Card.Body className='card-body'>
-              <Card.Text  style={{ height:'6rem' }}> 
+              <Card.Text  style={{ height:'6.5rem' }}> 
                 <br />
               A <b>React JS </b> Portfolio web Application, using <b>Node.JS, npm, CSS, </b>  and <b>React-bootstrap </b>
               </Card.Text>

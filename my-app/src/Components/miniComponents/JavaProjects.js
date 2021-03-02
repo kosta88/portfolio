@@ -10,13 +10,13 @@ export default function JavaProjects () {
           <Row className="fix-in-center">
 
             {/*elevator sim */}
-            <Card style={{ width: '18rem', margin: '1em' }}>
-              <Card.Header style={{ background: '#27221f', color: '#E9E9E9', fontWeight: 'bolder', fontSize:'1.15em' }} >Elevator Simulation</Card.Header>
+            <Card className='Card'>
+              <Card.Header className='Card-Header'>Elevator Simulation</Card.Header>
               <ReactPlayer width={'fill'}
                 height={200}
                 url='http://youtu.be/xKjRKND1ABg' />
               <Card.Body className='card-body' >
-                <Card.Text style={{ height:'6rem' }}>
+                <Card.Text style={{ height:'6.5rem' }}>
                   A <b>Java</b> Simulation implementing different scheduling algorithms 
                   which are compared by the waiting and execution time of simulated passengers
                 </Card.Text>
@@ -28,14 +28,14 @@ export default function JavaProjects () {
             </Card>
 
             {/* Android game */}
-            <Card style={{ width: '18rem', margin: '1em' }}>
-              <Card.Header style={{ background: '#27221f', color: '#E9E9E9', fontWeight: 'bolder' , fontSize:'1.15em'}}>Android game</Card.Header>
+            <Card  className='Card'>
+              <Card.Header className='Card-Header'>Android game</Card.Header>
               <ReactPlayer width={'fill'}
                 height={200}
                 volume={0.05}
                 url='http://youtu.be/egN2o8vE4vo' />
               <Card.Body className='card-body'>
-                <Card.Text style={{ height:'6rem' }}>
+                <Card.Text style={{ height:'6.5rem' }}>
                   <br />  An android game application written in AndroidStudio 
                   using <b>Java, XML</b> and <b>FireBase</b>  <br />          
                 </Card.Text>

@@ -1,0 +1,24 @@
+.Tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #326872;
+    height: 2.25em;
+  }
+
+  .Card{
+      width: 18rem;
+      margin: 1em;
+  }
+  .Card-Header{
+      background-color: #27221f;
+      font-weight: bolder;
+      color: #E9E9E9;
+      font-size: 1.15em;
+  }
+  
+.card-body {
+    background-color: #3cbead;
+    height: 12em;
+  }

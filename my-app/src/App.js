@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component , Fragment} from "react";
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -24,9 +24,10 @@ class App extends Component {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <div>
+
+        <Fragment>
           <Main />
-        </div>
+        </Fragment>
       </div>
     );
   }

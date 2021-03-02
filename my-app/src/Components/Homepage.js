@@ -13,11 +13,11 @@ export default function Homepage () {
 
         <h1 className='name-text'>Sklonnie Konstantin</h1>
         <div className="profile-img-border">
-          <img  src="images/main.jpeg" />
+        <img  style={{ height: "125pt", margin: '0.2em' }} src="images/main.png" alt="avatar" />
         </div>
         <Container fluid>
           <div className="banner-text" >
-            <h1 style={{ padding: '0.25em', fontSize: '1.75em' }}>Computer Science Graduate</h1>
+            <h1 >Computer Science Graduate</h1>
             <hr />
             <p>   JAVA | JavaScript | C++ | Node JS | Express JS | React JS | Postman | MongoDB </p>
 

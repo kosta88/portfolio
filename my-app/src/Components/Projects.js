@@ -1,10 +1,10 @@
 import React from "react";
 import { Tabs, Tab} from 'react-bootstrap';
-
 import JavaProjects from './miniComponents/JavaProjects'
 import ReactProjects from './miniComponents/ReactProjects'
 import FullstackProjects from './miniComponents/FullStackProjects'
 import MyFooter from './miniComponents/MyFooter'
+import './css/Projects.css'
 
 export default function Projects () {
     return (
